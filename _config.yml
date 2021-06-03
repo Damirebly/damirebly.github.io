@@ -24,9 +24,32 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://damirebly.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: damirebly
-permalink: /:categories/:title/
+
+
+include: [_pages]
+
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+      permalink: /blog/:categories/:title/
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
 
 # Build settings
+markdown: kramdown
 theme: null
 plugins:
   - jekyll-feed
