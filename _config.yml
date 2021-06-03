@@ -27,7 +27,7 @@ twitter_username: damirebly
 permalink: /:categories/:title/
 
 # Build settings
-theme: minima
+theme: null
 plugins:
   - jekyll-feed
 
