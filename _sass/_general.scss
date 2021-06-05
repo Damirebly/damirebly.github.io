@@ -8,8 +8,10 @@
     padding: 0;
   }
 
-  header {
-    background-color: #534E72;
+  .site-header {
+    background-color: #000;
+    background-image: url("/images/pat1.png");
+
   }
 
   footer {
@@ -17,9 +19,45 @@
    
   }
 
-  .nav-links {
-    background-color: #9F699F;
-    display: inline;
-   float: left;
+  nav {
+    background-color: #3E3651;
     width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+  }
+
+  #navlinks {
+    display: inline;
+    list-style-type: none;
+    margin-left: 5px;
+    margin-right: 5px;
+ 
+    font-size: 1.2em;
+    text-align: center;
+    
+   
+  }
+
+  #logo {
+    width: 15%;
+    height: 15%;
+    padding-left: 10px;
+  }
+
+  .page-content {
+    height: 100%;
+    width: 80%;
+    margin: 5px;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+  }
+
+  footer {
+    text-align: center;
+    color: #7775A5;
+    padding: 5px;
   }

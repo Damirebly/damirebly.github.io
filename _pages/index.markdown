@@ -9,15 +9,22 @@ permalink: /
 
 # Hello!
 
-This is the home page
+Latest blog post
+
+<ul>
+  {% for post in site.posts limit: 3 %}
+  <li><a href="{{ post.url }}" class="post-preview">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 
 
-other pages
+Latest gallery
 
-- [About](/about/)
+-img-
+
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae odio finibus, gravida lectus vel, vestibulum neque. Nam quis elit vel ante semper tempus. Fusce aliquet porttitor ligula, eu egestas mauris. Maecenas suscipit eros id ante imperdiet, et porta mauris placerat. Donec est ex, finibus non sapien et, rutrum auctor ex. Aenean quis massa nibh. Curabitur pretium, mauris eget molestie lobortis, ex elit tempus metus, et varius nulla nulla sit amet lacus. Nunc non scelerisque leo, vel finibus urna. Morbi tempus varius tortor. Sed in tortor euismod, cursus turpis id, consectetur lorem. Integer eget placerat nisi. Suspendisse quis finibus velit, nec iaculis mi. Fusce sagittis diam at nisl egestas, ac venenatis magna molestie. Suspendisse porta sagittis lobortis. Maecenas consectetur convallis ligula, id pellentesque tortor maximus ut. Nullam vel eros sed ipsum varius gravida a sed turpis.  
-
 
 
 Pellentesque id tempor quam, eu venenatis magna. Nunc sodales mi mi, tempus fermentum nunc malesuada et. Donec tempor id est ac pulvinar. Suspendisse potenti. Phasellus id varius mi. Integer commodo mi libero, eu elementum nunc tempus ac. Aliquam sit amet dignissim enim. Phasellus lacus ipsum, sollicitudin nec convallis vel, malesuada eget massa. Nullam eu lacus ut augue vestibulum gravida vitae in quam.
@@ -30,4 +37,3 @@ Vivamus mi mi, tempor a tristique ac, ultrices in tellus. Nullam eget congue eni
 
 
 Nam vel egestas purus. Aliquam commodo commodo metus. Quisque in dui arcu. Praesent sollicitudin eros massa, venenatis scelerisque ipsum tincidunt nec. Nulla bibendum nec dui sed auctor. Quisque varius ante eu pharetra semper. Vivamus eu leo vitae felis efficitur cursus quis eget nulla. Aenean ac efficitur elit. In mollis lacus vitae sem imperdiet luctus. Duis commodo est vel congue mattis. Donec id gravida sapien. Cras porttitor maximus orci in lobortis. Vivamus semper fermentum semper.
-
