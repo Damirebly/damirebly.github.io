@@ -1,0 +1,17 @@
+.gallerylist {
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+
+
+
+.galleryimg {
+    margin: 5px;
+}
+
+.galleryimg:hover {
+    opacity: 50%;
+    border: 2px;
+}
