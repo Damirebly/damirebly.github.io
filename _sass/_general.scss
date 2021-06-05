@@ -1,10 +1,25 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+
   
   body {
     font-size: 18px;
     font-family: Arial;
+    background-color: #DCD5E7;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #534E72;
+  }
+
+  footer {
+   background-color: #3E3651; 
+   
+  }
+
+  .nav-links {
+    background-color: #9F699F;
+    display: inline;
+   float: left;
+    width: 100%;
   }
