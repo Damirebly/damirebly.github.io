@@ -48,6 +48,9 @@ defaults:
       is_post: false
       layout: default
 
+  
+
+
 # Build settings
 markdown: kramdown
 theme: null
