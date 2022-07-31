@@ -7,27 +7,45 @@ title: Home
 permalink: /
 ---
 
-# Hello!
 
-Latest blog post
+<div class="index-content">
+  <div class="index-latest">
+    
+    <div class="index-latest-blog">
+    <h2>Latest blog post</h2>
+        <ul>
+          {% for post in site.posts limit: 1 %}
+          <li><div class="post-title">{{ post.title }}</div></li>
+          <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+          {{ post.excerpt }} 
+          <a href="{{ post.url }}">Read full post</a>
+          {% endfor %}
+        </ul>
+      
+    </div>
 
-<ul>
-  {% for post in site.posts limit: 3 %}
-  <li><a href="{{ post.url }}" class="post-preview">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
 
+ 
 
-Latest gallery
+    <div class="index-latest-art">
+       <h2>Latest art</h2>
+      <ul class="gallerylist">
+          {% for art in site.data.artfiles limit:3 %}
+            <li>
+              <a href="{{ art.url }}"><img src="{{ art.thumbnail }}" class="galleryimg" alt="{{ art.alttext }} class="></a>
+            </li>
+          {% endfor %}
+      </ul>
+    </div>
+ </div>
 
-<ul class="gallerylist">
-    {% for art in site.data.artfiles limit:2 %}
-      <li>
-        <a href="{{ art.url }}"><img src="{{ art.thumbnail }}" class="galleryimg" alt="{{ art.alttext }} class="></a>
-      </li>
-    {% endfor %}
+  <div class="index-side">
+    <ul>
+        {% for art in site.data.indexartfocus limit:1 %}
+          <li>
+            <img src="{{ art.url }}" class="index-art-focus"/>
+          </li>
+        {% endfor %}
     </ul>
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae odio finibus, gravida lectus vel, vestibulum neque. Nam quis elit vel ante semper tempus. Fusce aliquet porttitor ligula, eu egestas mauris. Maecenas suscipit eros id ante imperdiet, et porta mauris placerat. Donec est ex, finibus non sapien et, rutrum auctor ex. Aenean quis massa nibh. Curabitur pretium, mauris eget molestie lobortis, ex elit tempus metus, et varius nulla nulla sit amet lacus. Nunc non scelerisque leo, vel finibus urna. Morbi tempus varius tortor. Sed in tortor euismod, cursus turpis id, consectetur lorem. Integer eget placerat nisi. Suspendisse quis finibus velit, nec iaculis mi. Fusce sagittis diam at nisl egestas, ac venenatis magna molestie. Suspendisse porta sagittis lobortis. Maecenas consectetur convallis ligula, id pellentesque tortor maximus ut. Nullam vel eros sed ipsum varius gravida a sed turpis.  
-
+  </div>
+</div>

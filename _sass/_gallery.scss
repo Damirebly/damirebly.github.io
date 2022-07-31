@@ -1,23 +1,22 @@
 .gallerylist {
     display: flex;
     list-style-type: none;
-    
-    
+
+
 }
-
-
 
 .galleryimg {
     margin: 5px;
 }
 
-.galleryimg:hover, .diamondshape:hover {
+.galleryimg:hover,
+.diamondshape:hover {
     opacity: 50%;
     border: 2px;
 }
 
 .diamondshape {
-   margin: 5px;
-    
+    margin: 5px;
+
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }

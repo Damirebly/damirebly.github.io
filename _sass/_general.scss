@@ -1,43 +1,99 @@
-
+body {
+ 
+  background-color: #DCD5E7;
+  width: 100%;
+  height: 100%;
   
-  body {
-    font-size: 18px;
-    font-family: Arial;
-    background-color: #DCD5E7;
-    margin: 0;
-    padding: 0;
-  }
+}
 
-  .site-header {
-    background-color: #000;
-    background-image: url("/images/pat1.png");
+#container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: min-content 1fr min-content;
+ 
 
-  }
 
-  footer {
-   background-color: #3E3651; 
-   
-  }
+}
 
-  
+header {
+  background-color: rgb(32, 9, 58);
+  grid-column: 1 / span 12;
+  display: flex;
 
-  #logo {
-    width: 15%;
-    height: 15%;
-    padding-left: 10px;
-  }
+}
 
-  .page-content {
-    height: 100%;
-    width: 80%;
-    margin: 5px;
-    position: relative;
-    min-height: 100vh;
-    padding-bottom: 2.5rem;
-  }
+header nav {
+  margin-left: 10%;
+}
 
-  footer {
-    text-align: center;
-    color: #7775A5;
-    padding: 5px;
-  }
+footer {
+  background-color: #3E3651;
+  grid-column: 1 / span 12;
+  text-align: center;
+  color: #7775A5;
+  padding: 5px;
+
+}
+
+
+
+#logo {
+  height: 50%;
+  // padding: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.page-content {
+  // margin: 5px;
+  // display: flex;
+  // justify-content: space-between;
+  //this has been used to push the footer to the bottom. need a better solution
+  // padding-bottom: 2.5rem;
+  grid-column: 1 / span 12;
+  width: 100%;
+}
+
+.index-content {
+  // background-color: red;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255,255,255,0.5);
+  margin-left: 5%;
+  // display:inline-grid;
+  // width: 100%;
+ 
+}
+
+.index-latest {
+  grid-column: 1 / 2;
+  margin-right: 30%;
+  margin-left: 10%;
+  margin-top: 3%;
+
+  // grid-column: 1 / span 6;
+}
+
+
+
+.index-art-focus {
+  // grid-column: 5 / span 10;
+  height: 800px;
+}
+
+
+.index-side {
+  grid-column: 7 / 12;
+  // background-color: green;
+}
+
+#navlinks {
+  display: inline;
+  // list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+
+  font-size: 1.2em;
+  // text-align: center;
+ 
+}
