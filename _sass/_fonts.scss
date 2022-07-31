@@ -1,0 +1,37 @@
+@font-face {
+	font-family: Yrsa;
+	src: url('/assets/fonts/Yrsa-VariableFont_wght.ttf');
+	// font-weight: 1 900;
+	// font-style: normal;
+}
+
+@font-face {
+	font-family: Jost;
+	src: url('/assets/fonts/Jost-VariableFont_wght.ttf');
+	// font-weight: 1 900;
+	// font-style: normal;
+}
+
+@font-face {
+	font-family: Varta;
+	src: url('/assets/fonts/Varta-VariableFont_wght.ttf');
+	// font-weight: 1 900;
+	// font-style: normal;
+}
+
+body {
+	font-family: Yrsa;
+	font-size: 18px;
+}
+
+h1,h2,h3,#navlinks {
+	font-family: Jost;
+ } 
+
+.post-date {
+	font-family: Varta;
+}
+
+.post-title {
+	font-family: Jost;
+}
