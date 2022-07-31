@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
+    <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
 </head>
 <body>
+    <div id="container">
     <header class="site-header">
-        <a href="/index"><img src="/images/damirebly_logotitle-1.png" id="logo"/></a>
+        <a href="/index"><img src="/images/logo-icons/damirebly_logotitle-2.png" id="logo"/></a>
+        <nav>
+            {% for item in site.data.headerlinks.links %}
+            <li class="{% if item.url == page.url %}active{% endif %}" id="navlinks">
+              <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+        </nav>
     </header>
-    <nav>
-        {% for item in site.data.samplelist.docs %}
-        <li class="{% if item.url == page.url %}active{% endif %}" id="navlinks">
-          <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-    {% endfor %}
-    </nav>
+  
     <main class="page-content">
         {{ content }}
     </main>
     <footer>
         Damirebly (c) 2021
     </footer>
+</div>
 </body>
 </html>
