@@ -56,6 +56,20 @@ markdown: kramdown
 theme: null
 plugins:
   - jekyll-feed
+  - jekyll-datapage-generator
+
+# Jekyll datapage generator settings
+
+page_gen-dirs: true 
+
+
+page_gen:
+  - data: artfiles
+    template: artgenpage
+    name: title
+    dir: gallery
+    title: title
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

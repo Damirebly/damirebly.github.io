@@ -1,17 +1,20 @@
-- title: Dami2
-  url: /images/Dami_2021.png
+- title: Dami 2
+  imagepath: /images/Dami_2021.png
   thumbnail: /images/thumbnails/Dami_2021_thumb.png
   alttext: Dami
   date: 01-01-2021
+  desc: I'll do it for real later but here is a sentence as an example.
 
 - title: Witchtober Day 8
-  url: /images/Witchtober_Day8.png
+  imagepath: /images/Witchtober_Day8.png
   thumbnail: /images/thumbnails/Witchtober_Day8_thumb.png
   alttext: Witchtober Day 8
   date: 01-10-2017
+  desc: The 8th day of Witchtober in 2017... or 2018, no one can say for sure
 
 - title: Odelia
-  url: /images/Odelia-9.png
+  imagepath: /images/Odelia-9.png
   thumbnail: /images/thumbnails/Odelia_9_thumb.png
   alttext: Odelia
   date: 25-06-2021
+  desc: This one has a lot of variations. Hey I wonder how limited this text field is in yaml. how long? special characters? links? we'll see... guess i'll have to look at the yamp specification or something.
