@@ -25,7 +25,7 @@ permalink: /
     </div>
 
 
- 
+    <hr>
 
     <div class="index-latest-art">
        <h2>Latest art</h2>
@@ -43,7 +43,7 @@ permalink: /
     <ul>
         {% for art in site.data.indexartfocus limit:1 %}
           <li>
-            <img src="{{ art.url }}" class="index-art-focus"/>
+            <img src="{{ art.imagepath }}" class="index-art-focus"/>
           </li>
         {% endfor %}
     </ul>
