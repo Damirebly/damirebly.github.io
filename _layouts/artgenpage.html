@@ -2,9 +2,15 @@
 layout: default
 ---
 
+
 <div class="art-gen">
+	<div class="art-gen__sidebar">
+		{% include gallery-sidebar.html %}
+	</div>
 	<img src="{{ page.imagepath }}" alt="{{ page.alttext }}" class="art-gen__image"/>
-	{{ page.title }}
-	{{ page.date }}
-	{{ page.desc }}
+	<div class="art-gen__text">
+			<div class="art-gen__title"> {{ page.title }} </div>
+			<div class="art-gen__date"> {{ page.date }} </div>
+		<div class="art-gen__desc">{{ page.desc }}</div>
+	</div>
 </div>

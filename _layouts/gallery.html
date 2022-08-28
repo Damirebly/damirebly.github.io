@@ -2,3 +2,20 @@
 layout: default
 ---
 
+
+
+<div class="gallery__container">
+<div class="gallery__sidebar">
+	{% include gallery-sidebar.html %}
+</div>
+<div class="gallery__content">
+	<h1 class="gallery__title">Latest Art</h1>
+	<ul class="gallery__list">
+  {% for art in site.data.artfiles reversed %}
+    <li>
+      <a href="{{ art.title | datapage_url: 'gallery' }}"><img src="{{ art.thumbnail }}" alt="{{ art.alttext }} class="></a>
+    </li>
+   {% endfor %}
+</ul></div>
+
+</div>
