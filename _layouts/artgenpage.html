@@ -7,10 +7,12 @@ layout: default
 	<div class="art-gen__sidebar">
 		{% include gallery-sidebar.html %}
 	</div>
-	<img src="{{ page.imagepath }}" alt="{{ page.alttext }}" class="art-gen__image"/>
-	<div class="art-gen__text">
-			<div class="art-gen__title"> {{ page.title }} </div>
-			<div class="art-gen__date"> {{ page.date }} </div>
-		<div class="art-gen__desc">{{ page.desc }}</div>
-	</div>
+		<div class="art-gen__content">
+			<div class="art-gen__image-container"><img src="{{ page.imagepath }}" alt="{{ page.alttext }}" class="art-gen__image"/></div>
+			<div class="art-gen__text">
+					<div class="art-gen__title"> {{ page.title }} </div>
+					<div class="art-gen__date"> {{ page.date }} </div>
+				<div class="art-gen__desc">{{ page.desc }}</div>
+			</div>
+		</div>
 </div>

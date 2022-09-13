@@ -4,6 +4,7 @@
   alttext: Dami
   date: 01-01-2021
   desc: I'll do it for real later but here is a sentence as an example.
+  categories: Illustrations 2021  
 
 - title: Witchtober Day 8
   imagepath: /images/Witchtober_Day8.png
@@ -11,6 +12,7 @@
   alttext: Witchtober Day 8
   date: 01-10-2017
   desc: The 8th day of Witchtober in 2017... or 2018, no one can say for sure
+  categories: Witchtober 2017
 
 - title: Odelia
   imagepath: /images/Odelia-9.png
@@ -18,3 +20,4 @@
   alttext: Odelia
   date: 25-06-2021
   desc: This one has a lot of variations. Hey I wonder how limited this text field is in yaml. how long? special characters? links? we'll see... guess i'll have to look at the yamp specification or something.
+  categories: Illustrations 2021
