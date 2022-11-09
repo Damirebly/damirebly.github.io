@@ -101,3 +101,38 @@ footer {
   // text-align: center;
  
 }
+
+.about__container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top: 3em;
+}
+
+.about__boxes {
+  grid-column: 4 / 8;
+  margin-left: 5em;
+}
+
+.about__description {
+  background-color: white;
+  margin: 1em;
+  margin-bottom: 2em;
+  padding: 1em;
+  border-radius: 40px;
+  // grid-column: 2 / 5;
+  
+}
+
+.about__linkbox {
+  background-color: #EEEAF8;
+  margin: 1em;
+  margin-bottom: 2em;
+  padding: 1em;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  // grid-column: 2 / 5;
+}
+
+.about__profile {
+  margin-left: 5.5em;
+}
