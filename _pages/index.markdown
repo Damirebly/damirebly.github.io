@@ -29,7 +29,7 @@ permalink: /
 
     <div class="index-latest-art">
        <h2>Latest art</h2>
-      <ul class="gallerylist">
+      <ul class="gallery__list">
           {% for art in site.data.artfiles limit:3 %}
             <li>
               <a href="{{ art.title | datapage_url: 'gallery' }}"><img src="{{ art.thumbnail }}" class="galleryimg" alt="{{ art.alttext }} class="></a>

@@ -31,3 +31,4 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "addressable", ">= 2.8.0"
 
 gem "nokogiri", ">= 1.12.5"
+gem "webrick", "~> 1.7"
