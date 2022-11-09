@@ -7,17 +7,19 @@ body {
 }
 
 #container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: min-content 1fr min-content;
- 
+  // display: grid;
+  // grid-template-columns: repeat(12, 1fr);
+  // grid-template-rows: min-content 7fr min-content;
+ display: flex;
+ min-height: 100vh;
+ flex-direction: column;
 
 
 }
 
 header {
   background-color: rgb(32, 9, 58);
-  grid-column: 1 / span 12;
+  // grid-column: 1 / span 12;
   display: flex;
 
 }
@@ -26,14 +28,7 @@ header nav {
   margin-left: 10%;
 }
 
-footer {
-  background-color: #3E3651;
-  grid-column: 1 / span 12;
-  text-align: center;
-  color: #7775A5;
-  padding: 5px;
 
-}
 
 
 
@@ -44,16 +39,25 @@ footer {
   margin-top: 10px;
 }
 
-.page-content {
+main {
   // margin: 5px;
   // display: flex;
   // justify-content: space-between;
   //this has been used to push the footer to the bottom. need a better solution
   // padding-bottom: 2.5rem;
-  grid-column: 1 / span 12;
-  width: 100%;
+  // grid-column: 1 / span 12;
+  // width: 100%;
+  flex: 1;
 }
 
+footer {
+  background-color: #3E3651;
+  // grid-column: 1 / span 12;
+  text-align: center;
+  color: #7775A5;
+  padding: 5px;
+
+}
 .index-content {
   // background-color: red;
   display: flex;

@@ -1,0 +1,13 @@
+---
+Title: Illustrations 2021
+permalink: illustrations-2021
+---
+
+<h1>Illustrations 2021</h1>
+{% for art in site.data.artfiles %}
+{% if art.categories == "Illustrations 2021" %}
+<div>
+	{% include thumbnail-list.html %}
+</div>
+{% endif %}
+{% endfor %}

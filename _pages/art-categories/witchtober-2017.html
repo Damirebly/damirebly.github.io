@@ -1,0 +1,17 @@
+---
+Title: Witchtober 2017
+permalink: witchtober-2017
+---
+
+<div class="art-gen__sidebar">
+	{% include gallery-sidebar.html %}
+</div>
+
+<h1>Witchtober 2017</h1>
+{% for art in site.data.artfiles %}
+{% if art.categories == "Witchtober 2017" %}
+<div>
+	{% include thumbnail-list.html %}
+</div>
+{% endif %}
+{% endfor %}

@@ -1,0 +1,18 @@
+---
+Title: Petsite Related
+permalink: petsite-related
+---
+
+<h1>Petsite Related</h1>
+{% assign arts = site.data.artfiles | sort: 'date' | reverse %}
+{% for art in arts %}
+{% if art.categories == "Petsite Related" %}
+<div>
+	<ul>
+		<li>
+			<a href="{{ art.title | datapage_url: 'gallery' }}"><img src="{{ art.thumbnail }}" class="galleryimg" alt="{{ art.alttext }} class="></a>
+		 </li>
+	</ul>
+</div>
+{% endif %}
+{% endfor %}
