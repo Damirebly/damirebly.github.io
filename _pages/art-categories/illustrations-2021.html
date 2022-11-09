@@ -7,11 +7,7 @@ permalink: illustrations-2021
 {% for art in site.data.artfiles %}
 {% if art.categories == "Illustrations 2021" %}
 <div>
-	<ul>
-		<li>
-			<a href="{{ art.title | datapage_url: 'gallery' }}"><img src="{{ art.thumbnail }}" alt="{{ art.alttext }} class="></a>
-		 </li>
-	</ul>
+	{% include thumbnail-list.html %}
 </div>
 {% endif %}
 {% endfor %}

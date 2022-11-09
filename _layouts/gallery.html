@@ -11,9 +11,10 @@ layout: default
 <div class="gallery__content">
 	<h1 class="gallery__title">Latest Art</h1>
 	<ul class="gallery__list">
-  {% for art in site.data.artfiles reversed %}
+  {% assign arts = site.data.artfiles | sort: 'date' | reverse %}
+  {% for art in arts %}
     <li>
-      <a href="{{ art.title | datapage_url: 'gallery' }}"><img src="{{ art.thumbnail }}" alt="{{ art.alttext }} class="></a>
+      <a href="{{ art.title | datapage_url: 'gallery' }}"><img src="{{ art.thumbnail }}" class="galleryimg" alt="{{ art.alttext }} class="></a>
     </li>
    {% endfor %}
 </ul></div>

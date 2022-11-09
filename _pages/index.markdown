@@ -30,7 +30,8 @@ permalink: /
     <div class="index-latest-art">
        <h2>Latest art</h2>
       <ul class="gallery__list">
-          {% for art in site.data.artfiles limit:3 %}
+          {% assign arts = site.data.artfiles | sort: 'date' | reverse %}
+          {% for art in arts limit:3 %}
             <li>
               <a href="{{ art.title | datapage_url: 'gallery' }}"><img src="{{ art.thumbnail }}" class="galleryimg" alt="{{ art.alttext }} class="></a>
             </li>
