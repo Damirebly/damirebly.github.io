@@ -35,6 +35,13 @@
 
 .post__tags li {
     display: flex;
+    color: #583758;
+   
+}
+
+.post__tags, .post__date {
+    display: flex;
+    justify-content: right;
 }
 
 .post__content {

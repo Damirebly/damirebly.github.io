@@ -1,8 +1,7 @@
 ---
 title:  Welcome to Jekyll!
 layout: post
-categories: jekyll update
-tags: [dev, jekyll, github]
+tags: [webdev]
 ---
 
 Welcome to my post! This was published on {{ page.date }}.
