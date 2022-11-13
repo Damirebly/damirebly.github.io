@@ -28,6 +28,20 @@ h1,h2,h3,#navlinks, .art-gen__title, .art-gen__date, .post-title {
 	font-family: Jost;
  } 
 
-.post-date {
+h1 {
+	font-size: 56px;
+ }
+
+h2 {
+	font-size: 36px;
+}
+
+.post__date {
 	font-family: Varta;
+	font-size: 16px;
+}
+
+.post__tags {
+	font-family: Jost;
+	font-size: 20px;
 }
