@@ -64,9 +64,15 @@ footer {
   justify-content: space-between;
   background-color: rgba(255,255,255,0.5);
   margin-left: 5%;
-  // display:inline-grid;
-  // width: 100%;
  
+  
+  
+ 
+}
+
+.index-content, .gallery__container, .blog__container, .art-gen {
+  //124px is the combined height of the header and footer
+  min-height: calc(100vh - 124px);
 }
 
 .index-latest {

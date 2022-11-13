@@ -1,1 +1,45 @@
+.blog__container {
+    // background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
 
+.blog__container h1 {
+    grid-column: 3 / 11;
+    text-align: center;
+    background-color: white;
+}
+
+.blog__sidebar {
+    background-color: aliceblue;
+    grid-column: 1 / span 2;
+    border-right: 3px #89A1BA solid;
+    
+}
+
+.blog__content {
+    grid-column: 3 / 11;
+}
+
+.blog__post:first-child {
+    // background-color: rgb(110, 46, 46);
+    border-radius: 0px 0px 50px 0px;
+}
+
+.blog__post {
+    background-color: white;
+    margin-bottom: 50px;
+    border-radius: 0px 50px 50px 0px;
+    padding: 3em;
+}
+
+.post__tags li {
+    display: flex;
+}
+
+.post__content {
+    margin-top: 20px;
+    white-space: pre-line;
+    // background-color: #89A1BA;
+    // display: inline-block;
+}
