@@ -1,6 +1,6 @@
 ---
-title: Illustrations 2021
-permalink: illustrations-2021
+title: Illustrations 2022
+permalink: illustrations-2022
 ---
 
 <div class="gallery__container">
@@ -9,11 +9,11 @@ permalink: illustrations-2021
 
 <div class="gallery__content">
 <h1 class="gallery-title">{{ page.title }}</h1>
-<div class="gallery__description">All illustrations made in 2021.</div>
+<div class="gallery__description">All illustrations made in 2022.</div>
 <ul class="gallery__list">
 {% assign arts = site.data.artfiles | sort: 'date' | reverse %}
 {% for art in arts %}
-{% if art.categories contains "Illustrations 2021" %}
+{% if art.categories contains "Illustrations 2022" %}
 <li>
 	{% include thumbnail-list.html %}
 </li>

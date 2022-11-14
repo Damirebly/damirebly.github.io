@@ -9,15 +9,22 @@
 }
 
 #navlinks a:hover {
-
     color: #E3E0A4;
-    background-color: #534E72;
 }
 
 a {
-    color: black;
+    color: #534E72;
+}
+
+a:visited {
+    color: #534E72;
 }
 
 a:hover {
-    color: green;
+    color: #9F8ADB;
+    text-decoration: underline;
+}
+
+.post__tags a {
+    color: #583758;
 }

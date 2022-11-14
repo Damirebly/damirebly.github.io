@@ -1,4 +1,11 @@
-# damirebly.github.io
+---
+Title: Credits
+permalink: /credits
+layout: simplepage
+---
+
+# Site credits
+
 
 This site is built using [Jekyll](https://jekyllrb.com/).
 

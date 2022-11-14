@@ -35,11 +35,11 @@ defaults:
   -
     scope:
       type: posts
-      path: _posts
+      path: posts
     values:
       is_post: true
       layout: post
-      permalink: /blog/:categories/:title/
+      permalink: /:year/:title
   -
     scope:
       type: pages

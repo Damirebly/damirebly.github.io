@@ -2,4 +2,14 @@
   imagepath: /images/Odelia-9.png
   thumbnail: /images/thumbnails/Odelia_9_thumb.png
   alttext: Odelia
-  date: 25-06-2021
+  date: 2021-06-25
+  desc: This one has a lot of variations. Hey I wonder how limited this text field is in yaml. how long? special characters? links? we'll see... guess i'll have to look at the yamp specification or something.
+  categories: Illustrations 2021
+
+- title: Art for MM22
+  imagepath: /images/mm_art_22-3-filter.png
+  thumbnail: /images/thumbnails/mm_art_22-3-filter_thumb.png
+  alttext: An anthro goat walks down a dirt path in dim light, holding up a lantern to view a broken fountain with crying statues. The foliage surrounding the scene is dried out, overgrown and rotting.
+  date: 2022-11-04
+  desc: This art was made for a site event on Goatlings. The prompt was to draw a scene from a story which was part of another event on the site. I chose to draw a scene which had the character going through the story (I chose one of my own Goats for this) enter an overgrown, dried out garden outside a mansion and see a broken fountain with winged statues that appear to be crying.
+  categories: Petsite Related

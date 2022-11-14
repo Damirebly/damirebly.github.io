@@ -1,17 +1,27 @@
 ---
-Title: Witchtober 2017
+title: Witchtober 2017
 permalink: witchtober-2017
 ---
 
-<div class="art-gen__sidebar">
-	{% include gallery-sidebar.html %}
-</div>
+<div class="gallery__container">
 
-<h1>Witchtober 2017</h1>
-{% for art in site.data.artfiles %}
-{% if art.categories == "Witchtober 2017" %}
-<div>
+	{% include gallery-sidebar.html %}
+
+<div class="gallery__content">
+<h1 class="gallery-title">{{ page.title }}</h1>
+<div class="gallery__description">Art (mostly sketches) made for Witchtober in 2017. I fell off fairly early, 
+	but still wanted to finish, so the final witches were done as chibis instead of full pieces,
+	 and all at the same time at the end of the month.</div>
+<ul class="gallery__list">
+{% assign arts = site.data.artfiles | sort: 'date' | reverse %}
+{% for art in arts %}
+{% if art.categories contains "Witchtober 2017" %}
+<li>
 	{% include thumbnail-list.html %}
-</div>
+</li>
 {% endif %}
+
 {% endfor %}
+</ul>
+</div>
+</div>

@@ -41,12 +41,6 @@ permalink: /
  </div>
 
   <div class="index-side">
-    <ul>
-        {% for art in site.data.indexartfocus limit:1 %}
-          <li>
-            <img src="{{ art.imagepath }}" class="index-art-focus"/>
-          </li>
-        {% endfor %}
-    </ul>
+     {% include randomize.html %}
   </div>
 </div>

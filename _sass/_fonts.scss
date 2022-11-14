@@ -19,6 +19,18 @@
 	// font-style: normal;
 }
 
+@font-face {
+	font-family: JostLight;
+	src: url('/assets/fonts/Jost-VariableFont_wght.ttf');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: JostExtraLight;
+	src: url('/assets/fonts/Jost-VariableFont_wght.ttf');
+	font-weight: 200;
+}
+
 body {
 	font-family: Yrsa;
 	font-size: 18px;
@@ -28,6 +40,48 @@ h1,h2,h3,#navlinks, .art-gen__title, .art-gen__date, .post-title {
 	font-family: Jost;
  } 
 
-.post-date {
+h1 {
+	font-size: 56px;
+ }
+
+h2 {
+	font-size: 36px;
+}
+
+.post__date {
 	font-family: Varta;
+	font-size: 16px;
+}
+
+.post__tags {
+	font-family: Jost;
+	font-size: 20px;
+}
+
+.sidebar {
+	font-family: Varta;
+	font-size: 22px;
+}
+
+.sidebar div, .sidebar div a:visited {
+	font-family: JostExtraLight;
+	font-size: 24px;
+	color: #0C2F53;
+}
+
+.gallery__description {
+	font-size: 26px;
+}
+
+.art-gen__desc, .simple__container{
+	font-size: 26px;
+}
+
+.post__content {
+	font-size: 22px;
+}
+
+#medium-title {
+	font-family: JostLight;
+	font-size: 36px;
 }

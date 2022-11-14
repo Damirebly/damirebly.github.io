@@ -1,7 +1,7 @@
 ---
 
 title: A second test post
-categories: test
+tags: [art,flex,css]
 
 ---
 

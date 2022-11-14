@@ -64,14 +64,20 @@ footer {
   justify-content: space-between;
   background-color: rgba(255,255,255,0.5);
   margin-left: 5%;
-  // display:inline-grid;
-  // width: 100%;
  
+  
+  
+ 
+}
+
+.index-content, .gallery__container, .blog__container, .art-gen, .simple__container {
+  //124px is the combined height of the header and footer
+  min-height: calc(100vh - 124px);
 }
 
 .index-latest {
   grid-column: 1 / 2;
-  margin-right: 30%;
+  // margin-right: 30%;
   margin-left: 10%;
   margin-top: 3%;
 
@@ -82,13 +88,34 @@ footer {
 
 .index-art-focus {
   // grid-column: 5 / span 10;
-  height: 800px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+//  display: none;
+// opacity: 0.5;
+  
+  
+  
 }
 
+//code related to randomize script for side art on front page, source: https://jekyllcodex.org/without-plugin/randomize/
+.randomize > * {display: none;}
+.randomize > *:nth-child(0), .randomize > *:nth-child(2) {display: block;}
+
+.index-side__image {
+  grid-column: 9 / 12;
+  height: calc(100vh - 124px);
+  max-width: 900px;
+  // object-fit: cover;
+  
+}
 
 .index-side {
-  grid-column: 7 / 12;
+  grid-column: 9 / 12;
   // background-color: green;
+  // height: 100vh;
+  background-color: #3E3651;
+  // object-fit: cover;
 }
 
 #navlinks {
@@ -102,6 +129,33 @@ footer {
  
 }
 
+.sidebar {
+  grid-column: 1 / span 2;
+  border-right: 3px #89A1BA solid;
+  display: flex;
+  // justify-content: center;
+  flex-direction: column;
+  padding-top: 4em;
+}
+
+.sidebar ul{
+  // background-color: #3E3651;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  list-style-type:circle;
+}
+
+.sidebar li {
+  list-style-type: circle;
+}
+
+.sidebar div {
+  padding-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about__container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -110,7 +164,8 @@ footer {
 
 .about__boxes {
   grid-column: 4 / 8;
-  margin-left: 5em;
+  margin-right: 3em;
+  
 }
 
 .about__description {
@@ -134,5 +189,33 @@ footer {
 }
 
 .about__profile {
-  margin-left: 5.5em;
+  // margin-left: 3em;
+  grid-column: 8 / 11;
+}
+
+.simple__container {
+  background-color: rgba(255,255,255,0.5);
+  margin-left: 20em;
+  margin-right: 20em;
+  padding-top: 2%;
+  padding-left: 3%;
+}
+
+.simple__container h1 {
+  margin-bottom: 2%;
+  
+}
+
+
+.grid__list ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.grid__list li {
+  display: flex;
+  flex-direction: column;
+  // flex-wrap: wrap;
+  margin: 20px;
 }
