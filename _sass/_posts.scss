@@ -5,20 +5,17 @@
 }
 
 .blog__container h1 {
+    padding-top: 1em;
     grid-column: 3 / 11;
     text-align: center;
     background-color: white;
 }
 
-.blog__sidebar {
-    background-color: aliceblue;
-    grid-column: 1 / span 2;
-    border-right: 3px #89A1BA solid;
-    
-}
 
 .blog__content {
-    grid-column: 3 / 11;
+    grid-column: 3 / 10;
+   
+    
 }
 
 .blog__post:first-child {
@@ -30,7 +27,10 @@
     background-color: white;
     margin-bottom: 50px;
     border-radius: 0px 50px 50px 0px;
-    padding: 3em;
+    padding-left: 12em;
+    padding-right: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 .post__tags li {
@@ -49,4 +49,16 @@
     white-space: pre-line;
     // background-color: #89A1BA;
     // display: inline-block;
+}
+
+//The h1 on the individual post page was much lower than the other pages that use this
+// layout. possibly because there is no h2 to take up space and push elements. 
+//So this is a quick solution to that, the titles seem to be in the same place now.
+
+#post__title {
+    margin-top: -1.6em; 
+}
+
+#individual-post__date {
+    margin-top: 9em;
 }

@@ -2,17 +2,19 @@
    <div class="blog__container">
        
        
-       <div class="blog__sidebar">
+       <nav class="sidebar">
+        <div id="medium-title">Blog navigation</div>
        <ul>
          {% for post in site.posts limit:12 %}
          <li><a href="{{ post.url }}" class="post-preview">{{ post.title }}</a></li>
          {% endfor %}
        </ul>
        
-       
-       <a href="/blog/categories">All categories</a><br>
+       <div>
+       <a href="/blog/archive">Blog archive</a><br>
        <a href="/blog/tags">All tags</a>
        </div>
+      </nav>
        <div class="blog__content">
         <h1>All posts in {{ page.title }}</h1>
          <ul>
@@ -21,8 +23,8 @@
          {% assign pagetag = site.tags[page.pagetag] %}
          {% for post in pagetag %}
          <li class="blog__post">
-          <h2>{{ post.title }}</h2>
-         <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+         <div class="post__date">{{ post.date | date: "%b %-d, %Y" }}</div>
           <div class="post__tags">
            <ul>
             <li>{% if post %}

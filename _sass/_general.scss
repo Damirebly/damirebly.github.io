@@ -70,7 +70,7 @@ footer {
  
 }
 
-.index-content, .gallery__container, .blog__container, .art-gen {
+.index-content, .gallery__container, .blog__container, .art-gen, .simple__container {
   //124px is the combined height of the header and footer
   min-height: calc(100vh - 124px);
 }
@@ -129,6 +129,33 @@ footer {
  
 }
 
+.sidebar {
+  grid-column: 1 / span 2;
+  border-right: 3px #89A1BA solid;
+  display: flex;
+  // justify-content: center;
+  flex-direction: column;
+  padding-top: 4em;
+}
+
+.sidebar ul{
+  // background-color: #3E3651;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  list-style-type:circle;
+}
+
+.sidebar li {
+  list-style-type: circle;
+}
+
+.sidebar div {
+  padding-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about__container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -162,4 +189,10 @@ footer {
 
 .about__profile {
   margin-left: 5.5em;
+}
+
+.simple__container {
+  background-color: rgba(255,255,255,0.5);
+  margin-left: 20em;
+  margin-right: 20em;
 }

@@ -7,17 +7,19 @@ permalink: /blog
 <div class="blog__container">
 
 
-<div class="blog__sidebar">
+<nav class="sidebar">
+<div id="medium-title">Blog navigation</div>
 <ul>
   {% for post in site.posts limit:12 %}
   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
-
+<div>
 <a href="/blog/archive">Blog archive</a><br>
 <a href="/blog/tags">All tags</a>
 </div>
+</nav>
 <div class="blog__content">
 <h1>Recent blog posts</h1>
   <ul>
