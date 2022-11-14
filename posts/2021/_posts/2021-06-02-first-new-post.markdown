@@ -2,7 +2,7 @@
 layout: post
 title:  "First New Post"
 date:   2021-06-02 19:38:00 +0200
-tags: [test]
+tags: [test, css, grid, flex]
 ---
 
 # First New Post (Test)

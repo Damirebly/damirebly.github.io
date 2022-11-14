@@ -1,6 +1,7 @@
 ---
 Title: Credits
 permalink: /credits
+layout: simplepage
 ---
 
 # Site credits
