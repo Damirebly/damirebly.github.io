@@ -29,7 +29,7 @@ permalink: /about
         <a href="https://www.goatlings.com/profile/u/6054">Goatlings</a><br>
         </div>
     </div>
-    <div class="about__profile"><img src="/images/logo-icons/maskot-profile.png"></div>
+    <div class="about__profile"><img src="/images/logo-icons/mascot_profile_halfsize.png"></div>
 </div>
 
 

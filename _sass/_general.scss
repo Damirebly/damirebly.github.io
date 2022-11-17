@@ -19,13 +19,20 @@ body {
 
 header {
   background-color: rgb(32, 9, 58);
+  background-image: url(/images/logo-icons/long_mascot-3-whiteoutline-50opacity.png);
+  background-repeat: no-repeat;
+  background-position: 95% 65%;
+  background-size: 40em;
   // grid-column: 1 / span 12;
   display: flex;
+  // height: 7em;
 
 }
 
 header nav {
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 
@@ -33,10 +40,13 @@ header nav {
 
 
 #logo {
-  height: 50%;
+  // height: 10%;
+  // height: 60px;
+  height: 3.6em;
   // padding: 10px;
   margin-left: 15px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 main {
@@ -121,10 +131,11 @@ footer {
 #navlinks {
   display: inline;
   // list-style-type: none;
-  padding: 5px;
-  margin: 5px;
+  // padding: 5px;
+  // margin: 5px;
+  margin-left: 50px;
 
-  font-size: 1.2em;
+  // font-size: 1.2em;
   // text-align: center;
  
 }

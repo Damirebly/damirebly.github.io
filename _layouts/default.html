@@ -10,7 +10,7 @@
 <body>
     <div id="container">
         <header>
-            <a href="/index"><img src="/images/logo-icons/Damirebly_logotitle-2.png" id="logo"/></a>
+            <a href="/index"><button aria-label="home"><img src="/images/logo-icons/logo-new.png" id="logo"/></button></a>
             <nav>
                 {% for item in site.data.headerlinks.links %}
                 <li class="{% if item.url == page.url %}active{% endif %}" id="navlinks">
