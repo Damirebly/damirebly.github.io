@@ -11,7 +11,7 @@ layout: default
 			<div class="art-gen__image-container"><img src="{{ page.imagepath }}" alt="{{ page.alttext }}" class="art-gen__image"/></div>
 			<div class="art-gen__text">
 					<div class="art-gen__title"> {{ page.title }} </div>
-					<div class="art-gen__date"> {{ page.date }} </div>
+					<div class="art-gen__date"> {{ page.date | date: "%-d %b %Y" }} </div>
 				<div class="art-gen__desc">{{ page.desc }}</div>
 			</div>
 		</div>

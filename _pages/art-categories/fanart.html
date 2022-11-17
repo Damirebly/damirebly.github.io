@@ -1,0 +1,25 @@
+---
+title: Fanart
+permalink: fanart
+---
+
+<div class="gallery__container">
+
+	{% include gallery-sidebar.html %}
+
+<div class="gallery__content">
+<h1 class="gallery-title">{{ page.title }}</h1>
+<div class="gallery__description">Fanart of characters from various media. </div>
+<ul class="gallery__list">
+{% assign arts = site.data.artfiles | sort: 'date' | reverse %}
+{% for art in arts %}
+{% if art.categories contains "Fanart" %}
+<li>
+	{% include thumbnail-list.html %}
+</li>
+{% endif %}
+
+{% endfor %}
+</ul>
+</div>
+</div>

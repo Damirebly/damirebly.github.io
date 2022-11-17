@@ -26,7 +26,7 @@ permalink: /blog
   {% for post in site.posts %}
   <li class="blog__post">
    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <div class="post__date">{{ post.date | date: "%b %-d, %Y" }}</div>
+  <div class="post__date">{{ post.date | date: "%-d %b %Y" }}</div>
    <div class="post__tags">
    <ul><li>
     {% if post %}
