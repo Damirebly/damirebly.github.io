@@ -36,7 +36,8 @@ permalink: /blog
     {% endif %}
     {% for tag in tags %}
       <a href="/blog/tags/{{tag|slugize}}">{{tag}}</a>
-      {% unless forloop.last %}&nbsp;{% endunless %}
+      <!-- separates the tags with a comma and a space, unless its the last item -->
+      {% unless forloop.last %},&nbsp;{% endunless %}
     {% endfor %}
     </li>
     </ul>

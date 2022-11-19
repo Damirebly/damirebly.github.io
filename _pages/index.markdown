@@ -25,7 +25,6 @@ permalink: /
     </div>
 
 
-    <hr>
 
     <div class="index-latest-art">
        <h2>Latest art</h2>
