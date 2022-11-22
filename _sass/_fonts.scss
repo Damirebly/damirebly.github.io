@@ -82,6 +82,10 @@ header nav {
 	font-size: 26px;
 }
 
+.art-gen__date {
+	font-size: 28px;
+}
+
 .post__content {
 	font-size: 22px;
 }
@@ -89,4 +93,25 @@ header nav {
 #medium-title {
 	font-family: JostLight;
 	font-size: 36px;
+}
+
+@media screen and (max-width: 1200px) {
+	
+	.art-gen__title, h1 {
+		font-size: 36px;
+	}
+
+	.art-gen__desc {
+		font-size: 20px;
+	}
+
+	.art-gen__date {
+		font-size: 20px;
+	}
+  }
+
+@media screen and (max-width: 600px) {
+	header nav {
+		font-size: 24px;
+	}
 }
