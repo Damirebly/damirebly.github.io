@@ -18,7 +18,7 @@ layout: default
 <div class="blog__content">
     <div class="blog__post">
         <h1 id="post__title">{{ page.title }}</h1>
-        <div class="post__date" id="individual-post__date">{{ page.date | date: "%b %-d, %Y" }}</div>
+        <div class="post__date">{{ page.date | date: "%b %-d, %Y" }}</div>
         <div class="post__tags">
           <ul><li>
            {% if post %}

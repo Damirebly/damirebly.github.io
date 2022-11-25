@@ -5,9 +5,9 @@ permalink: /blog
 ---
 
 <div class="blog__container">
-
-
-<nav class="sidebar">
+<div class="sidebar__container">
+  {% include toggleSidebar.html %}
+  <nav class="sidebar" id="foo">
 <div id="medium-title">Blog navigation</div>
 <ul>
   {% for post in site.posts limit:12 %}
@@ -20,6 +20,9 @@ permalink: /blog
 <a href="/blog/tags">All tags</a>
 </div>
 </nav>
+</div>
+
+
 <div class="blog__content">
 <h1>Recent blog posts</h1>
   <ul>
