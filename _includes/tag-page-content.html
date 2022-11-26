@@ -1,10 +1,11 @@
    
    <div class="blog__container">
        
-       
-       <nav class="sidebar">
+       <div class="sidebar__container">
+        {% include toggleSidebar.html %}
+       <nav class="sidebar" id="foo">
         <div id="medium-title">Blog navigation</div>
-       <ul>
+       <ul class="sidebar__latest-posts">
          {% for post in site.posts limit:12 %}
          <li><a href="{{ post.url }}" class="post-preview">{{ post.title }}</a></li>
          {% endfor %}
@@ -15,6 +16,7 @@
        <a href="/blog/tags">All tags</a>
        </div>
       </nav>
+      </div>
        <div class="blog__content">
         <h1>All posts in {{ page.title }}</h1>
          <ul>
