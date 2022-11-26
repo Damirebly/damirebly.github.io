@@ -1,8 +1,6 @@
 @font-face {
 	font-family: Yrsa;
 	src: url('/assets/fonts/Yrsa-VariableFont_wght.ttf');
-	// font-weight: 1 900;
-	// font-style: normal;
 }
 
 @font-face {
@@ -14,15 +12,12 @@
 @font-face {
 	font-family: Jost;
 	src: url('/assets/fonts/Jost-VariableFont_wght.ttf');
-	// font-weight: 1 900;
-	// font-style: normal;
 }
 
 @font-face {
 	font-family: Varta;
 	src: url('/assets/fonts/Varta-VariableFont_wght.ttf');
-	// font-weight: 1 900;
-	// font-style: normal;
+
 }
 
 @font-face {
@@ -42,16 +37,25 @@ body {
 	font-size: 18px;
 }
 
-h1,h2,h3,#navlinks, .art-gen__title, .art-gen__date, .post-title {
+h1,h2,#navlinks, .art-gen__title, .art-gen__date, .post-title {
 	font-family: Jost;
  } 
 
-h1 {
-	font-size: 56px;
+h1, .index-latest h2 {
+	font-size: 50px;
  }
+
+.index-latest h1 {
+	font-size: 12px;
+}
 
 h2 {
 	font-size: 36px;
+}
+
+h3 {
+	font-family: JostLight;
+	font-size: 32px;
 }
 
 header nav {
@@ -62,7 +66,6 @@ header nav {
 figcaption {
 	font-family: YrsaLight;
 	font-size: 20px;
-	// color: rgb(32, 9, 58);
   
 }
 
@@ -110,8 +113,16 @@ figcaption {
 
 @media screen and (max-width: 1200px) {
 	
-	.art-gen__title, h1 {
+	.art-gen__title, h1, .index-latest h2 {
+		font-size: 42px;
+	}
+
+	h2 {
 		font-size: 36px;
+	}
+
+	.index-latest h3 {
+		font-size: 28px;
 	}
 
 	.art-gen__desc {
@@ -130,6 +141,19 @@ figcaption {
 
 	.post__tags {
 		font-size: 14px;
+	}
+
+	.art-gen__date {
+		font-size: 14px;
+		grid-column: 10 / span 12;
+	}
+
+	.art-gen__title {
+		font-size: 36px;
+	}
+
+	.art-gen__desc {
+		font-size: 22px;
 	}
 	
 

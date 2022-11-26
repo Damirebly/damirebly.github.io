@@ -1,5 +1,4 @@
 .blog__container {
-    // background-color: beige;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
@@ -16,7 +15,7 @@
   }
 
 .blog__container figure {
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -33,7 +32,6 @@ figcaption {
 }
 
 .blog__post:first-child {
-    // background-color: rgb(110, 46, 46);
     border-radius: 0px 0px 50px 0px;
 }
 
@@ -61,8 +59,6 @@ figcaption {
 .post__content {
     margin-top: 20px;
     white-space: pre-line;
-    // background-color: #89A1BA;
-    // display: inline-block;
 }
 
 //The h1 on the individual post page was much lower than the other pages that use this
@@ -72,7 +68,3 @@ figcaption {
 #post__title {
     margin-top: -1.6em; 
 }
-
-// #individual-post__date {
-//     margin-top: 9em;
-// }

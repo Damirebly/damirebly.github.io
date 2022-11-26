@@ -7,9 +7,6 @@ body {
 }
 
 #container {
-  // display: grid;
-  // grid-template-columns: repeat(12, 1fr);
-  // grid-template-rows: min-content 7fr min-content;
  display: flex;
  min-height: 100vh;
  flex-direction: column;
@@ -23,9 +20,7 @@ header {
   background-repeat: no-repeat;
   background-position: 95% 65%;
   background-size: 40em;
-  // grid-column: 1 / span 12;
   display: flex;
-  // height: 7em;
 
 }
 
@@ -37,29 +32,18 @@ header nav {
 
 
 #logo {
-  // height: 10%;
-  // height: 60px;
   height: 3.6em;
-  // padding: 10px;
   margin-left: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 main {
-  // margin: 5px;
-  // display: flex;
-  // justify-content: space-between;
-  //this has been used to push the footer to the bottom. need a better solution
-  // padding-bottom: 2.5rem;
-  // grid-column: 1 / span 12;
-  // width: 100%;
   flex: 1;
 }
 
 footer {
   background-color: #3E3651;
-  // grid-column: 1 / span 12;
   text-align: center;
   color: #7775A5;
   padding: 5px;
@@ -67,7 +51,6 @@ footer {
 }
 
 .index-content {
-  // background-color: red;
   display: flex;
   justify-content: space-between;
   background-color: rgba(255,255,255,0.5);
@@ -85,30 +68,41 @@ footer {
 
 .index-latest {
   grid-column: 1 / 2;
-  // margin-right: 30%;
   margin-left: 10%;
-  margin-top: 3%;
-
-  // grid-column: 1 / span 6;
+  margin-top: 2%;
 }
 
 .index-latest-blog {
-  // text-align: right;
   border-bottom: 2px solid #7775A5;
   max-width: 600px;
+  margin-bottom: 1em;
+}
+
+.index-latest-blog ul, .index-latest-blog li, .index-latest-blog div,
+ .index-latest-blog p {
+  margin-bottom: 0.5em;
+}
+
+.post-link {
+  text-align: right;
+}
+
+.index-latest .post__date {
+  justify-content: left;
+}
+
+/* This might not be the best way to do it. But I think the layout looks bad with three headings on the front page, and the
+first heading is redundant anyway. For hierarchy reasons (the front page had two h2's without a h1) and for screen readers,
+I've added a h1 which is present in the DOM but hidden visually. */
+.index-latest h1 {
+  visibility: hidden;
 }
 
 
 .index-art-focus {
-  // grid-column: 5 / span 10;
   object-fit: cover;
   height: 100%;
   width: 100%;
-//  display: none;
-// opacity: 0.5;
-  
-  
-  
 }
 
 //code related to randomize script for side art on front page, source: https://jekyllcodex.org/without-plugin/randomize/
@@ -119,27 +113,17 @@ footer {
   grid-column: 9 / 12;
   height: calc(100vh - 124px);
   max-width: 900px;
-  // object-fit: cover;
   
 }
 
 .index-side {
   grid-column: 9 / 12;
-  // background-color: green;
-  // height: 100vh;
   background-color: #3E3651;
-  // object-fit: cover;
 }
 
 #navlinks {
   display: inline;
-  // list-style-type: none;
-  // padding: 5px;
-  // margin: 5px;
   margin-left: 50px;
-
-  // font-size: 1.2em;
-  // text-align: center;
  
 }
 
@@ -147,17 +131,17 @@ footer {
   grid-column: 1 / span 2;
   border-right: 3px #89A1BA solid;
   display: flex;
-  // justify-content: center;
   flex-direction: column;
   padding-top: 4em;
 }
 
 .sidebar ul{
-  // background-color: #3E3651;
   margin-left: auto;
   margin-right: auto;
   padding-top: 1em;
+  margin-bottom: 1em;
 }
+
 
 .sidebar li {
   list-style-type: circle;
@@ -185,9 +169,8 @@ footer {
   background-color: white;
   margin: 1em;
   margin-bottom: 2em;
-  padding: 1em;
+  padding: 1.5em;
   border-radius: 40px;
-  // grid-column: 2 / 5;
   
 }
 
@@ -195,14 +178,12 @@ footer {
   background-color: #EEEAF8;
   margin: 1em;
   margin-bottom: 2em;
-  padding: 1em;
+  padding: 1.5em;
   border-radius: 40px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-  // grid-column: 2 / 5;
 }
 
 .about__profile {
-  // margin-left: 3em;
   grid-column: 8 / 11;
 }
 
@@ -229,7 +210,6 @@ footer {
 .grid__list li {
   display: flex;
   flex-direction: column;
-  // flex-wrap: wrap;
   margin: 20px;
 }
 
@@ -270,11 +250,6 @@ footer {
   .sidebar__container {
     grid-column: 1 / span 3;
   }
-
-  // .sidebar ul {
-  //   margin: 5px !important;
-  //   margin-left: 2em !important;
-  // }
 
   .blog__post {
     padding-left: 7em !important;
@@ -317,6 +292,10 @@ footer {
 
   .sidebar__container {
     grid-column: 2 / span 3;
+  }
+
+  .art-gen__content {
+    display: block !important;
   }
 }
 
@@ -369,12 +348,10 @@ footer {
     padding-right: 1em !important;
   }
 
-  
 }
 
-@media screen and (max-width: 600px) {
-
-  .index-art-focus {
+@media screen and (max-width: 750px) {
+  .about__profile, .about__profile img {
     display: none;
   }
 
@@ -383,12 +360,18 @@ footer {
     margin-right: 0px;
     margin-left: 1em;
   }
+}
 
+@media screen and (max-width: 600px) {
+
+  .index-art-focus {
+    display: none;
+  }
   .about__description, .about__linkbox {
     margin-right: 0px;
   }
 
-  .about__profile, .about__profile img, .sidebar__latest-posts, .sidebar #medium-title {
+  .sidebar__latest-posts, .sidebar #medium-title {
     display: none;
   }
 
@@ -424,8 +407,23 @@ footer {
     max-height: 2em;
   }
 
-  .blog__content, .blog__container h1 {
+  .blog__content, .blog__container h1, .gallery__content{
     grid-column: 2 / 12 !important;
+    padding-left: 1em !important;
+
+  }
+
+  .art-gen__content {
+    grid-column: 2 / 12 !important;
+  }
+
+  .index-content, .gallery__container, .blog__container, .art-gen, .simple__container {
+    //95px is the combined height of the header and footer
+    min-height: calc(100vh - 95px);
+  }
+
+  .index-latest {
+    padding-top: 2em;
   }
 
 
@@ -433,9 +431,21 @@ footer {
     max-width: 300px;
   }
 
+  .post__content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
   .blog__post {
     padding: 0.5em !important;
-    // margin: 0em !important;
+  }
+
+  .art-gen__date {
+    margin-right: 2em;
+  }
+
+  .art-gen__content {
+    display: block !important;
   }
 
   .simple__container {
@@ -455,7 +465,10 @@ footer {
   #navToggleButton {
     display: block;
     grid-column: 2 / 12;
-    padding: 0.5em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-top: 0.4em;
+    padding-bottom: 0.1em;
   }
 
 }

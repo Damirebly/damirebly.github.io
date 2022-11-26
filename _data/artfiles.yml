@@ -17,25 +17,41 @@
 - title: Dami 2
   imagepath: /images/Dami_2021.png
   thumbnail: /images/thumbnails/Dami_2021_thumb.png
-  alttext: Dami
-  date: 2021-01-01
-  desc: I'll do it for real later but here is a sentence as an example.
+  alttext: Fullbody illustration of Dami holding an umbrella in one hand and holding out the other as if to feel for rain. 
+  date: 2021-01-22
+  desc: "Illustration of my character Dami (not me). The lineart and some of the flats/color palette choices were initially done in Aug 2018. 
+  When rendering it in 2021 I even did the work the way I used to do it: painstakingly filling in everything by hand with the brush tool.
+  For some reason. It felt weird to not finish the piece the way I would have done it then, I suppose. While I like going back to finish
+  old WIPs, sometimes it leads to situations like that."
   categories: Illustrations 2021  
 
 - title: Witchtober Day 8
   imagepath: /images/witchtober/Day8_Blood_Witch.png
   thumbnail: /images/thumbnails/Witchtober_Day8_thumb.png
-  alttext: Witchtober Day 8
-  date: 2017-01-10
-  desc: The 8th day of Witchtober in 2017... or 2018, no one can say for sure
+  alttext: "A grayscale (with some pops of red) waist-up illustration of a witch holding an umbrella, looking distressed. Blood pours down in the background
+  like rain, with other people also in the background shielding themselves and running away."
+  date: 2017-10-19
+  desc: "The prompt for day 8 was \"Blood Witch\". This is the only illustration from my Witchtober attempt I would consider finished as is.
+  For the prompt I imagined a witch with blood powers that was still inexperienced, and had trouble controlling the powers. So in the scene, 
+  blood starts pouring down like rain and they are unable to stop it. 
+  
+
+  Thinking about it now, since I drew in an umbrella, maybe this wasn't entirely unexpected."
   categories: Witchtober 2017
 
 - title: Odelia
   imagepath: /images/Odelia-9.png
   thumbnail: /images/thumbnails/Odelia_9_thumb.png
-  alttext: Odelia
+  alttext: "Fullbody illustration of a character sitting/standing in the air, with an abstract background made up of boxes, lines and clouds. The illustration is 
+  mostly in two tones, yellow and burgundy."
   date: 2021-06-25
-  desc: This one has a lot of variations. Hey I wonder how limited this text field is in yaml. how long? special characters? links? we'll see... guess i'll have to look at the yamp specification or something.
+  desc: "Illustration I made to practice abstract backgrounds. I mostly using the rectangle fill tool to draw lines and boxes, and drew in some clouds as well as 
+  used one of the default watercolor brushes in CSP to add the circles. I then made many variations, changing the colors and adding gradients and moving the elements
+  to the front or back until I got this result I was happy with. 
+
+
+  The character is a one-off for this illustration, but I really wanted to draw clothes with a kind of
+  lattice on them." 
   categories: Illustrations 2021
 
 - title: Art for MM22
@@ -43,15 +59,18 @@
   thumbnail: /images/thumbnails/mm_art_22-3-filter_thumb.png
   alttext: An anthro goat walks down a dirt path in dim light, holding up a lantern to view a broken fountain with crying statues. The foliage surrounding the scene is dried out, overgrown and rotting.
   date: 2022-11-04
-  desc: This art was made for a site event on Goatlings. The prompt was to draw a scene from a story which was part of another event on the site. I chose to draw a scene which had the character going through the story (I chose one of my own Goats for this) enter an overgrown, dried out garden outside a mansion and see a broken fountain with winged statues that appear to be crying.
+  desc: "This art was made for a site event on Goatlings. 
+  
+
+  The prompt was to draw a scene from a story which was part of another event on the site. I chose to draw a scene which had the character going through the story (I chose one of my own Goats for this) enter an overgrown, dried out garden outside a mansion and see a broken fountain with winged statues that appear to be crying."
   categories: [Petsite related, Illustrations 2022]
 
 - title: Akita Neru Doll
   imagepath: /images/Akita_Neru_Doll.png
   thumbnail: /images/thumbnails/Akita_Neru_Doll_thumb.png
-  alttext: A chibi of Akita Neru looking miffed.
+  alttext: A chibi of Akita Neru looking miffed. The illustration has a flat, sticker-like look.
   date: 2018-09-15
-  desc: fill me out
+  desc: A chibi of Akita Neru. 
   categories: [Illustrations 2018, Fanart]
 
 - title: Chibis
@@ -59,7 +78,12 @@
   thumbnail: /images/thumbnails/chibis-linedup_thumb.png
   alttext: 8 chibi characters on two rows in different poses.
   date: 2018-02-19
-  desc: fill me out
+  desc: "Chibis made as examples for an art shop I had once.
+  
+
+   The characters are as follows (left to right, top to bottom): Subeta avatar character (Berit),
+  regular story character/OC (Devon), Subeta avatar character (Lucille), Subeta pet character (Mhairin), player character from Fantasy Life (Romi),
+  Subeta avatar character (Rory), Subeta avatar character (unnamed)."
   categories: [Illustrations 2018]
 
 - title: Cynthia
@@ -67,7 +91,8 @@
   thumbnail: /images/thumbnails/cynthia-2_thumb.png
   alttext: A chibi of Cynthia from Pokemon.
   date: 2021-06-04
-  desc: fill me out
+  desc: "A simple little chibi of Cynthia (Pokemon). I drew this in 2021, but went in in 2022 to color the lineart differently and flip the signature back.
+  I guess when I flipped this originally and saved the final version, I didn't notice the signature got flipped too. This happens a lot."
   categories: [Illustrations 2021, Fanart]
 
 - title: Imogen
@@ -75,7 +100,7 @@
   thumbnail: /images/thumbnails/Imogen18_thumb.png
   alttext: Portrait of Imogen with a neutral expression, in pink monochrome.
   date: 2018-11-19
-  desc: fill me out
+  desc: Portrait of my character Imogen in pink monochrome.
   categories: [Illustrations 2018]
 
 - title: Jainy
@@ -83,7 +108,8 @@
   thumbnail: /images/thumbnails/Jainy-transparentfade_thumb.png
   alttext: Bust portrait of Jainy looking over her shoulder with a stern expression. 
   date: 2018-09-09
-  desc: fill me out
+  desc: "Illustration of my character Jainy. I was just doodling at the time. This is a character that keeps getting an increasingly elaborate backstory,
+  when drawing this it got more serious and dark as well to reflect the mood in the illustration. I still really like the texture and gradient effect on the suit."
   categories: [Illustrations 2018]
 
 - title: Labithuld (rabbit form)
@@ -91,7 +117,7 @@
   thumbnail: /images/thumbnails/Labi-rabbit-form_thumb.png
   alttext: A grey leaping rabbit with long fangs and glowing black streaks on his back.
   date: 2021-07-19
-  desc: fill me out
+  desc: A pet form for the <a href="/gallery/labithuld-human-form/">character</a> I made, originally to be used for the pet I made. I tried to match the Subeta artstyle, which I struggled a bit with (I like the result here, but less on the <a href="/gallery/porilopin-rabbit-form/">other one I made</a>). That style has a very thin, uniform lineart and clearly defined cel shading in 3-5 layers. I later learned it was unecessary to match the style, but it was a neat exercise.
   categories: [Illustrations 2021]
 
 - title: Labithuld (human form)
@@ -99,7 +125,7 @@
   thumbnail: /images/thumbnails/Labithuld-4_thumb.png
   alttext: A fullbody of a grey humanoid with rabbit ears and a long tail, holding his side. Shiny stones float around one of his hands.
   date: 2021-03-15
-  desc: fill me out
+  desc: Illustration of a Subeta avatar character I made (that is, I made an avatar that became a character and then a pet). The concept for this character is a cryptid that is not that familiar with human culture and has not come into contact much with it before, but has developed an interest for fashion. I also made a <a href="/gallery/porilopin-human-form/">sibling character</a>.
   categories: [Illustrations 2021]
 
 - title: Lavilla
@@ -107,7 +133,7 @@
   thumbnail: /images/thumbnails/Lavilla-2_thumb.png
   alttext: A green toned bust up of Lavilla in profile view, with a glittering ice dancer-like dress and a ribboned fascinator.
   date: 2018-11-27
-  desc: fill me out
+  desc: 
   categories: [Illustrations 2018]
 
 - title: Site mascot portrait
@@ -115,7 +141,7 @@
   thumbnail: /images/thumbnails/mascot_full_thumb.png
   alttext: Bust portrait of the site mascot with a neutral smiling expression, and a shiny background with several layers of stripes, boxes/lines and sparkles.
   date: 2022-11-16
-  desc: fill me out
+  desc: 
   categories: [Illustrations 2022]
 
 - title: Porilopin (rabbit form)
@@ -123,7 +149,7 @@
   thumbnail: /images/thumbnails/pori_rabbit_form-3_thumb.png
   alttext: A grey rabbit with pink streaks on her back, sitting on her hind legs. 
   date: 2021-06-03
-  desc: fill me out
+  desc:
   categories: [Illustrations 2021]
 
 - title: Porilopin (human form)
@@ -131,7 +157,7 @@
   thumbnail: /images/thumbnails/Porilopin-3_thumb.png
   alttext: A fullbody of a grey rabbit humanoid with a sly, wide-eyed smiling expression. She is holding a feather and a bird is flying close by. 
   date: 2021-07-03
-  desc: fill me out
+  desc: 
   categories: [Illustrations 2021]
 
 - title: Illustration redraw
@@ -139,7 +165,7 @@
   thumbnail: /images/thumbnails/thisone2_thumb.png
   alttext: A waist-up of a green-haired character holding a blue rose up to her face. The background has malachite tiles and a window looking out to a red landscape.
   date: 2018-06-17
-  desc: fill me out
+  desc: 
   categories: [Illustrations 2018]
 
 - title: Tora
@@ -147,7 +173,7 @@
   thumbnail: /images/thumbnails/tora18_thumb.png
   alttext: Bust portrait of Tora with a slightly smiling neutral expression
   date: 2018-09-09
-  desc: fill me out
+  desc: 
   categories: [Illustrations 2021]
 
 - title: Site mascot banner image
@@ -155,7 +181,7 @@
   thumbnail: /images/thumbnails/long_mascot-3-whiteoutline_thumb.png
   alttext: Fullbody illustration of the site mascot flying.
   date: 2022-11-16
-  desc: fill me out
+  desc: 
   categories: [Illustrations 2022]
 
 - title: Day 1 - Seasonal witch
@@ -163,7 +189,7 @@
   thumbnail: /images/thumbnails/Day1_seasonal_witch_sketc_thumb.jpg
   alttext: fill me out
   date: 2017-10-03
-  desc: fill me out
+  desc: 
   categories: [Witchtober 2017]
 
 - title: Day 2 - Urban witch
@@ -171,7 +197,7 @@
   thumbnail: /images/thumbnails/Day2_urban_witch_sketch_thumb.jpg
   alttext: fill me out
   date: 2017-10-06
-  desc: fill me out
+  desc: 
   categories: [Witchtober 2017]
 
 - title: Day 3 - Merchant witch
@@ -179,7 +205,7 @@
   thumbnail: /images/thumbnails/Day3_merchant_witch_sketch_thumb.jpg
   alttext: fill me out
   date: 2017-10-06
-  desc: fill me out
+  desc: 
   categories: [Witchtober 2017]
 
 - title: Day 4 - Garden witch
@@ -187,7 +213,7 @@
   thumbnail: /images/thumbnails/Day4_garden_witch_sketch_thumb.jpg
   alttext: fill me out
   date: 2017-10-06
-  desc: fill me out
+  desc: 
   categories: [Witchtober 2017]
 
 - title: Day 5 - Socialite witch
@@ -195,7 +221,7 @@
   thumbnail: /images/thumbnails/Day5_socialite_witch_sketch_thumb.jpg
   alttext: fill me out
   date: 2017-10-06
-  desc: fill me out
+  desc: 
   categories: [Witchtober 2017]
 
 - title: Day 6 - Oracle witch
@@ -203,7 +229,7 @@
   thumbnail: /images/thumbnails/Day6_Oracle_Witch_thumb.png
   alttext: fill me out
   date: 2017-10-15
-  desc: fill me out
+  desc: 
   categories: [Witchtober 2017]
 
 - title: Day 7 - Tailor witch
@@ -211,7 +237,7 @@
   thumbnail: /images/thumbnails/Day7_Tailor_Witch_lineart-Denim_and_Lace_thumb.png
   alttext: fill me out
   date: 2017-10-15
-  desc: fill me out
+  desc: 
   categories: [Witchtober 2017]
 
 - title: Days 10,11,12,13
@@ -219,7 +245,7 @@
   thumbnail: /images/thumbnails/Day10-11-12-13_thumb.jpg
   alttext: fill me out
   date: 2017-10-31
-  desc: fill me out
+  desc: 
   categories: [Witchtober 2017]
 
 - title: Days 14,15,16,17,18,21
@@ -227,7 +253,7 @@
   thumbnail: /images/thumbnails/Day14-15-16-17-18-21_thumb.png
   alttext: fill me out
   date: 2017-10-31
-  desc: fill me out
+  desc: 
   categories: [Witchtober 2017]
 
 - title: Days 19,22,23,24,26,27
@@ -235,7 +261,7 @@
   thumbnail: /images/thumbnails/Day19-22-23-24-26-27_thumb.png
   alttext: fill me out
   date: 2017-10-31
-  desc: fill me out
+  desc: 
   categories: [Witchtober 2017]
 
 - title: Days 28,29,30,31
@@ -243,5 +269,5 @@
   thumbnail: /images/thumbnails/Day28-29-30-31_thumb.png
   alttext: fill me out
   date: 2017-10-31
-  desc: fill me out
+  desc: 
   categories: [Witchtober 2017]
