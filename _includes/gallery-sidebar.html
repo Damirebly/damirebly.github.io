@@ -1,6 +1,8 @@
 <!-- This is manually added for now. Add the new category under _pages > art-categories. Copy one of the existing files, change the front matter
 and the if statement to look for the new string -->
-<nav class="sidebar">
+<div class="sidebar__container">
+	{% include toggleSidebar.html %}
+<nav class="sidebar" id="foo">
 	<div id="medium-title">Gallery navigation</div>
 	<ul>
 		<li><a href="/illustrations-2022">Illustrations 2022</a></li>
@@ -11,3 +13,4 @@ and the if statement to look for the new string -->
 		<li><a href="/fanart">Fanart</a></li>
 	</ul>
 </nav>
+</div>

@@ -1,0 +1,33 @@
+<button onclick="toggle_visibility('foo');" id="navToggleButton">
+    <img src="/images/logo-icons/burgermenu.svg" aria-label="blog navigation"/>
+</button>
+
+<script>
+// function showSidebar() {
+//     var sidebar = document.getElementByClass("sidebar");
+//     if (sidebar.style.display == "none") {
+//         sidebar.style.display == "block";    
+//     }
+// }
+
+function toggle_visibility(id) {
+    var e = document.getElementById(id);
+    if(e.style.display == 'flex')
+    e.style.display = 'none';
+    else
+        e.style.display = 'flex';
+}
+
+    // const toggleDisplay = (trigger, target) => {
+    //     let defaultDisplay = 
+    //         window.getComputedStyle(target).getPropertyValue('display')
+    //     trigger.addEventListener('click', e => {
+    //         target.style.display =
+    //         (target.style.display == 'none') ?
+    //         defaultDisplay :
+    //         'none'
+    //     })
+    // }
+
+    // toggleDisplay( document.querySelector('#trigger'), document.querySelector('#target'))
+</script>

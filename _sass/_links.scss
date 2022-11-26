@@ -25,6 +25,10 @@ a:hover {
     text-decoration: underline;
 }
 
-.post__tags a {
-    color: #583758;
+.post__content a, .about__linkbox a, .post__tags a, footer a, footer a:visited, .simple__container a, .index-latest-blog a{
+    color: #89A1BA;
+}
+
+h1 a {
+    color:#534E72;
 }

@@ -2,9 +2,11 @@
 layout: default
 ---
 <div class="blog__container">
-  <nav class="sidebar">
+<div class="sidebar__container">
+  {% include toggleSidebar.html %}
+  <nav class="sidebar" id="foo">
     <div id="medium-title">Blog navigation</div>
-    <ul>
+    <ul class="sidebar__latest-posts">
       {% for post in site.posts limit:12 %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
@@ -15,10 +17,12 @@ layout: default
     <a href="/blog/tags">All tags</a>
     </div>
     </nav>
+</div>
+
 <div class="blog__content">
     <div class="blog__post">
         <h1 id="post__title">{{ page.title }}</h1>
-        <div class="post__date" id="individual-post__date">{{ page.date | date: "%b %-d, %Y" }}</div>
+        <div class="post__date">{{ page.date | date: "%b %-d, %Y" }}</div>
         <div class="post__tags">
           <ul><li>
            {% if post %}

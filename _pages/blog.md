@@ -5,11 +5,11 @@ permalink: /blog
 ---
 
 <div class="blog__container">
-
-
-<nav class="sidebar">
+<div class="sidebar__container">
+  {% include toggleSidebar.html %}
+  <nav class="sidebar" id="foo">
 <div id="medium-title">Blog navigation</div>
-<ul>
+<ul class="sidebar__latest-posts">
   {% for post in site.posts limit:12 %}
   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
@@ -20,6 +20,9 @@ permalink: /blog
 <a href="/blog/tags">All tags</a>
 </div>
 </nav>
+</div>
+
+
 <div class="blog__content">
 <h1>Recent blog posts</h1>
   <ul>
@@ -36,7 +39,8 @@ permalink: /blog
     {% endif %}
     {% for tag in tags %}
       <a href="/blog/tags/{{tag|slugize}}">{{tag}}</a>
-      {% unless forloop.last %}&nbsp;{% endunless %}
+      <!-- separates the tags with a comma and a space, unless its the last item -->
+      {% unless forloop.last %},&nbsp;{% endunless %}
     {% endfor %}
     </li>
     </ul>

@@ -11,6 +11,20 @@
     background-color: white;
 }
 
+.blog__container img {
+    max-width: 100%;
+  }
+
+.blog__container figure {
+    max-width: 80%;
+    margin: auto;
+}
+
+figcaption {
+    margin-top: 0.3em;
+    
+  }
+
 
 .blog__content {
     grid-column: 3 / 10;
@@ -59,6 +73,6 @@
     margin-top: -1.6em; 
 }
 
-#individual-post__date {
-    margin-top: 9em;
-}
+// #individual-post__date {
+//     margin-top: 9em;
+// }
