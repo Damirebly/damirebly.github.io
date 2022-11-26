@@ -9,7 +9,7 @@ permalink: /blog
   {% include toggleSidebar.html %}
   <nav class="sidebar" id="foo">
 <div id="medium-title">Blog navigation</div>
-<ul>
+<ul class="sidebar__latest-posts">
   {% for post in site.posts limit:12 %}
   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}

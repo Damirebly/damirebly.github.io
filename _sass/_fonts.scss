@@ -6,6 +6,12 @@
 }
 
 @font-face {
+	font-family: YrsaLight;
+	src: url('/assets/fonts/Yrsa-VariableFont_wght.ttf');
+	font-weight: 300;
+}
+
+@font-face {
 	font-family: Jost;
 	src: url('/assets/fonts/Jost-VariableFont_wght.ttf');
 	// font-weight: 1 900;
@@ -51,6 +57,13 @@ h2 {
 header nav {
 	font-family: Jost;
 	font-size: 34px;
+}
+
+figcaption {
+	font-family: YrsaLight;
+	font-size: 20px;
+	// color: rgb(32, 9, 58);
+  
 }
 
 .post__date {

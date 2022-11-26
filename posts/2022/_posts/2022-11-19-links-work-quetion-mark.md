@@ -26,3 +26,12 @@ so.. full link probably yhen: [full link](http://damirebly.net)
 
 sidebar is fine again. gonna assume that colons cant be used in title. or maybe question marks?
 
+images time
+
+![this is the alttext apparently](/images/other/old_website.png)
+
+{% include image.html url="/images/other/old_website.png" alt="screenshot of a simple website, with a huge logo and some images in the middle. the colors are ugly." description="This was up for 5 years, believe it or not." %}
+
+this doesnt have alt but i can add another field for that. why would the caption be the same as the alt text. thats no fun
+
+
