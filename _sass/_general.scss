@@ -7,9 +7,6 @@ body {
 }
 
 #container {
-  // display: grid;
-  // grid-template-columns: repeat(12, 1fr);
-  // grid-template-rows: min-content 7fr min-content;
  display: flex;
  min-height: 100vh;
  flex-direction: column;
@@ -23,9 +20,7 @@ header {
   background-repeat: no-repeat;
   background-position: 95% 65%;
   background-size: 40em;
-  // grid-column: 1 / span 12;
   display: flex;
-  // height: 7em;
 
 }
 
@@ -37,29 +32,18 @@ header nav {
 
 
 #logo {
-  // height: 10%;
-  // height: 60px;
   height: 3.6em;
-  // padding: 10px;
   margin-left: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 main {
-  // margin: 5px;
-  // display: flex;
-  // justify-content: space-between;
-  //this has been used to push the footer to the bottom. need a better solution
-  // padding-bottom: 2.5rem;
-  // grid-column: 1 / span 12;
-  // width: 100%;
   flex: 1;
 }
 
 footer {
   background-color: #3E3651;
-  // grid-column: 1 / span 12;
   text-align: center;
   color: #7775A5;
   padding: 5px;
@@ -67,7 +51,6 @@ footer {
 }
 
 .index-content {
-  // background-color: red;
   display: flex;
   justify-content: space-between;
   background-color: rgba(255,255,255,0.5);
@@ -85,15 +68,11 @@ footer {
 
 .index-latest {
   grid-column: 1 / 2;
-  // margin-right: 30%;
   margin-left: 10%;
   margin-top: 2%;
-
-  // grid-column: 1 / span 6;
 }
 
 .index-latest-blog {
-  // text-align: right;
   border-bottom: 2px solid #7775A5;
   max-width: 600px;
   margin-bottom: 1em;
@@ -121,15 +100,9 @@ I've added a h1 which is present in the DOM but hidden visually. */
 
 
 .index-art-focus {
-  // grid-column: 5 / span 10;
   object-fit: cover;
   height: 100%;
   width: 100%;
-//  display: none;
-// opacity: 0.5;
-  
-  
-  
 }
 
 //code related to randomize script for side art on front page, source: https://jekyllcodex.org/without-plugin/randomize/
@@ -140,27 +113,17 @@ I've added a h1 which is present in the DOM but hidden visually. */
   grid-column: 9 / 12;
   height: calc(100vh - 124px);
   max-width: 900px;
-  // object-fit: cover;
   
 }
 
 .index-side {
   grid-column: 9 / 12;
-  // background-color: green;
-  // height: 100vh;
   background-color: #3E3651;
-  // object-fit: cover;
 }
 
 #navlinks {
   display: inline;
-  // list-style-type: none;
-  // padding: 5px;
-  // margin: 5px;
   margin-left: 50px;
-
-  // font-size: 1.2em;
-  // text-align: center;
  
 }
 
@@ -168,13 +131,11 @@ I've added a h1 which is present in the DOM but hidden visually. */
   grid-column: 1 / span 2;
   border-right: 3px #89A1BA solid;
   display: flex;
-  // justify-content: center;
   flex-direction: column;
   padding-top: 4em;
 }
 
 .sidebar ul{
-  // background-color: #3E3651;
   margin-left: auto;
   margin-right: auto;
   padding-top: 1em;
@@ -210,7 +171,6 @@ I've added a h1 which is present in the DOM but hidden visually. */
   margin-bottom: 2em;
   padding: 1.5em;
   border-radius: 40px;
-  // grid-column: 2 / 5;
   
 }
 
@@ -221,11 +181,9 @@ I've added a h1 which is present in the DOM but hidden visually. */
   padding: 1.5em;
   border-radius: 40px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-  // grid-column: 2 / 5;
 }
 
 .about__profile {
-  // margin-left: 3em;
   grid-column: 8 / 11;
 }
 
@@ -252,7 +210,6 @@ I've added a h1 which is present in the DOM but hidden visually. */
 .grid__list li {
   display: flex;
   flex-direction: column;
-  // flex-wrap: wrap;
   margin: 20px;
 }
 
@@ -293,11 +250,6 @@ I've added a h1 which is present in the DOM but hidden visually. */
   .sidebar__container {
     grid-column: 1 / span 3;
   }
-
-  // .sidebar ul {
-  //   margin: 5px !important;
-  //   margin-left: 2em !important;
-  // }
 
   .blog__post {
     padding-left: 7em !important;
@@ -466,7 +418,7 @@ I've added a h1 which is present in the DOM but hidden visually. */
   }
 
   .index-content, .gallery__container, .blog__container, .art-gen, .simple__container {
-    //124px is the combined height of the header and footer
+    //95px is the combined height of the header and footer
     min-height: calc(100vh - 95px);
   }
 
@@ -486,7 +438,6 @@ I've added a h1 which is present in the DOM but hidden visually. */
 
   .blog__post {
     padding: 0.5em !important;
-    // margin: 0em !important;
   }
 
   .art-gen__date {
