@@ -17,7 +17,8 @@ permalink: /blog
 
 <div>
 <a href="/blog/archive">Blog archive</a><br>
-<a href="/blog/tags">All tags</a>
+<a href="/blog/tags">All tags</a><br><br>
+<a href="/feed.xml">RSS feed</a>
 </div>
 </nav>
 </div>
