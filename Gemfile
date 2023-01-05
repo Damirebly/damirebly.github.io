@@ -16,12 +16,13 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-datapage-generator"
+  gem "jekyll-seo-tag"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo", "~> 1.2.10"
   gem "tzinfo-data"
 end
 
@@ -30,5 +31,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "addressable", ">= 2.8.0"
 
-gem "nokogiri", ">= 1.12.5"
+gem "nokogiri", ">= 1.13.10"
 gem "webrick", "~> 1.7"
+gem "commonmarker", ">= 0.23.6"
