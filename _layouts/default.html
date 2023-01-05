@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ page.desc }}">
     <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" title="{{ site.title }}">
+
+    <!--<meta property="og:title" content="{{ page.title }} | {{ site.title }}"/>
+   
+    <meta property="og:url" content="{{ site.url }}"/>-->
+   
+    <!--<meta property="og:type" content="website"/>-->
+    {% seo %}
+    <meta property="og:image" content="{{ page.imagepath }}"/>
+    <meta property="og:description" content="{{ page.desc }}"/>
+
 </head>
 <body>
     <div id="container">

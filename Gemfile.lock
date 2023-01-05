@@ -280,6 +280,7 @@ DEPENDENCIES
   github-pages
   jekyll-datapage-generator
   jekyll-feed (~> 0.12)
+  jekyll-seo-tag
   nokogiri (>= 1.12.5)
   tzinfo (~> 1.2)
   tzinfo-data
