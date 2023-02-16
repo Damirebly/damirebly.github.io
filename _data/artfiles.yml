@@ -117,7 +117,10 @@
   thumbnail: /images/thumbnails/Labi-rabbit-form_thumb.png
   alttext: A grey leaping rabbit with long fangs and glowing black streaks on his back.
   date: 2021-07-19
-  desc: A pet form for the <a href="/gallery/labithuld-human-form/">character</a> I made, originally to be used for the pet I made. I tried to match the Subeta artstyle, which I struggled a bit with (I like the result here, but less on the <a href="/gallery/porilopin-rabbit-form/">other one I made</a>). That style has a very thin, uniform lineart and clearly defined cel shading in 3-5 layers. I later learned it was unecessary to match the style, but it was a neat exercise.
+  desc: >
+    A pet form for the [character](/gallery/labithuld-human-form/) I made, originally to be used for the pet I made. 
+    I tried to match the Subeta artstyle, which I struggled a bit with (I like the result here, but less on the [other one I made](/gallery/porilopin-rabbit-form/). 
+    That style has a very thin, uniform lineart and clearly defined cel shading in 3-5 layers. I later learned it was unecessary to match the style, but it was a neat exercise.
   categories: [Illustrations 2021]
 
 - title: Labithuld (human form)
@@ -125,7 +128,7 @@
   thumbnail: /images/thumbnails/Labithuld-4_thumb.png
   alttext: A fullbody of a grey humanoid with rabbit ears and a long tail, holding his side. Shiny stones float around one of his hands.
   date: 2021-03-15
-  desc: Illustration of a Subeta avatar character I made (that is, I made an avatar that became a character and then a pet). The concept for this character is a cryptid that is not that familiar with human culture and has not come into contact much with it before, but has developed an interest for fashion. I also made a <a href="/gallery/porilopin-human-form/">sibling character</a>.
+  desc: Illustration of a Subeta avatar character I made (that is, I made an avatar that became a character and then a pet). The concept for this character is a cryptid that is not that familiar with human culture and has not come into contact much with it before, but has developed an interest for fashion. I also made a [sibling character](/gallery/porilopin-human-form/).
   categories: [Illustrations 2021]
 
 - title: Lavilla
@@ -133,7 +136,7 @@
   thumbnail: /images/thumbnails/Lavilla-2_thumb.png
   alttext: A green toned bust up of Lavilla in profile view, with a glittering ice dancer-like dress and a ribboned fascinator.
   date: 2018-11-27
-  desc: 
+  desc: 'test text'
   categories: [Illustrations 2018]
 
 - title: Site mascot portrait

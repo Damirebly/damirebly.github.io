@@ -9,9 +9,9 @@ layout: default
 		<div class="art-gen__content">
 			<div class="art-gen__image-container"><img src="{{ page.imagepath }}" alt="{{ page.alttext }}" class="art-gen__image"/></div>
 			<div class="art-gen__text">
-					<div class="art-gen__title"> {{ page.title }} </div>
+					<h1 class="art-gen__title"> {{ page.title }} </h1>
 					<div class="art-gen__date"> {{ page.date | date: "%-d %b %Y" }} </div>
-				<div class="art-gen__desc">{{ page.desc }}</div>
+				<div class="art-gen__desc">{{ page.desc | markdownify }}</div>
 			</div>
 		</div>
 </div>
