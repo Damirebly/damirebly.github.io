@@ -1,9 +1,7 @@
 body {
- 
   background-color: #DCD5E7;
   width: 100%;
   height: 100%;
-  
 }
 
 #container {
@@ -76,19 +74,18 @@ footer {
   border-bottom: 2px solid #7775A5;
   max-width: 600px;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 
-.index-latest-blog ul, .index-latest-blog li, .index-latest-blog div,
- .index-latest-blog p {
+.index-latest-blog div,
+ .index-latest-blog p, .index-latest-blog__content {
   margin-bottom: 0.5em;
 }
 
 .post-link {
   text-align: right;
-}
-
-.index-latest .post__date {
-  justify-content: left;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
 }
 
 /* This might not be the best way to do it. But I think the layout looks bad with three headings on the front page, and the
@@ -123,7 +120,7 @@ I've added a h1 which is present in the DOM but hidden visually. */
 
 #navlinks {
   display: inline;
-  margin-left: 50px;
+  margin-left: 2em;
  
 }
 
