@@ -6,21 +6,7 @@ permalink: /blog
 
 <div class="blog__container">
 <div class="sidebar__container">
-  {% include toggleSidebar.html %}
-  <nav class="sidebar" id="foo">
-<div id="medium-title">Blog navigation</div>
-<ul class="sidebar__latest-posts">
-  {% for post in site.posts limit:12 %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-<div>
-<a href="/blog/archive">Blog archive</a><br>
-<a href="/blog/tags">All tags</a><br><br>
-<a href="/feed.xml">RSS feed</a>
-</div>
-</nav>
+  {% include blog-sidebar.html %}
 </div>
 
 
