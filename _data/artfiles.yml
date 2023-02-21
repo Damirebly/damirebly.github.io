@@ -45,7 +45,7 @@
   alttext: "Fullbody illustration of a character sitting/standing in the air, with an abstract background made up of boxes, lines and clouds. The illustration is 
   mostly in two tones, yellow and burgundy."
   date: 2021-06-25
-  desc: "Illustration I made to practice abstract backgrounds. I mostly using the rectangle fill tool to draw lines and boxes, and drew in some clouds as well as 
+  desc: "Illustration I made to practice abstract backgrounds. I mostly used the rectangle fill tool to draw lines and boxes, and drew in some clouds as well as 
   used one of the default watercolor brushes in CSP to add the circles. I then made many variations, changing the colors and adding gradients and moving the elements
   to the front or back until I got this result I was happy with. 
 
@@ -136,7 +136,7 @@
   thumbnail: /images/thumbnails/Lavilla-2_thumb.png
   alttext: A green toned bust up of Lavilla in profile view, with a glittering ice dancer-like dress and a ribboned fascinator.
   date: 2018-11-27
-  desc: 'test text'
+  desc: 'Portrait of my character Lavilla using only green and turquoise colors.'
   categories: [Illustrations 2018]
 
 - title: Site mascot portrait
@@ -144,7 +144,9 @@
   thumbnail: /images/thumbnails/mascot_full_thumb.png
   alttext: Bust portrait of the site mascot with a neutral smiling expression, and a shiny background with several layers of stripes, boxes/lines and sparkles.
   date: 2022-11-16
-  desc: 
+  desc: >
+    Portrait of the site mascot made to be used as a profile picture and "author photo" on my about page.
+    The background uses a few of the default sparkle brushes in CSP, the ribbon used on the boxes is a brush I made before.
   categories: [Illustrations 2022]
 
 - title: Porilopin (rabbit form)
@@ -152,7 +154,7 @@
   thumbnail: /images/thumbnails/pori_rabbit_form-3_thumb.png
   alttext: A grey rabbit with pink streaks on her back, sitting on her hind legs. 
   date: 2021-06-03
-  desc:
+  desc: Pet form of [this character](/gallery/porilopin-human-form). I tried to match the Subeta style for this, as the intent was to use it as an overlay. 
   categories: [Illustrations 2021]
 
 - title: Porilopin (human form)
@@ -160,7 +162,7 @@
   thumbnail: /images/thumbnails/Porilopin-3_thumb.png
   alttext: A fullbody of a grey rabbit humanoid with a sly, wide-eyed smiling expression. She is holding a feather and a bird is flying close by. 
   date: 2021-07-03
-  desc: 
+  desc: A character I made as a sibling to [this character](/gallery/labithuld-human-form), so they could be a matching pair. Their personalities are a little different, this character looks gentle but has a cruel side. 
   categories: [Illustrations 2021]
 
 - title: Illustration redraw
@@ -168,7 +170,10 @@
   thumbnail: /images/thumbnails/thisone2_thumb.png
   alttext: A waist-up of a green-haired character holding a blue rose up to her face. The background has malachite tiles and a window looking out to a red landscape.
   date: 2018-06-17
-  desc: 
+  desc: > 
+    This a redraw of an older illustration I made. The concept for that was mostly based on the background I made,
+     malachite tiling and a window looking out to a red landscape. The clothes and other details followed that color scheme. 
+     For this redraw I wanted the character to have a less vacant expression and a more interesting pose.
   categories: [Illustrations 2018]
 
 - title: Tora
@@ -176,7 +181,7 @@
   thumbnail: /images/thumbnails/tora18_thumb.png
   alttext: Bust portrait of Tora with a slightly smiling neutral expression
   date: 2018-09-09
-  desc: 
+  desc: A simple bust portrait of my character Tora in her original outfit of a white beret and yellow shirt.
   categories: [Illustrations 2021]
 
 - title: Site mascot banner image
@@ -184,7 +189,7 @@
   thumbnail: /images/thumbnails/long_mascot-3-whiteoutline_thumb.png
   alttext: Fullbody illustration of the site mascot flying.
   date: 2022-11-16
-  desc: 
+  desc: Made to be used as part of the background for the site's header. 
   categories: [Illustrations 2022]
 
 - title: Day 1 - Seasonal witch
