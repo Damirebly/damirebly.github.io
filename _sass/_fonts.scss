@@ -17,7 +17,12 @@
 @font-face {
 	font-family: Varta;
 	src: url('/assets/fonts/Varta-VariableFont_wght.ttf');
+}
 
+@font-face {
+	font-family: VartaBold;
+	src: url('/assets/fonts/Varta-VariableFont_wght.ttf');
+	font-weight: 600;
 }
 
 @font-face {
@@ -81,13 +86,12 @@ figcaption {
 
 .sidebar {
 	font-family: Varta;
-	font-size: 22px;
+	font-size: 1.3em;
 }
 
-.sidebar div, .sidebar div a:visited {
+.sidebar div {
 	font-family: JostExtraLight;
 	font-size: 24px;
-	color: #0C2F53;
 }
 
 .gallery__description {
@@ -100,6 +104,8 @@ figcaption {
 
 .art-gen__date {
 	font-size: 28px;
+	font-family: JostLight;
+	color: #583758;
 }
 
 .post__content {
@@ -109,6 +115,11 @@ figcaption {
 #medium-title {
 	font-family: JostLight;
 	font-size: 36px;
+}
+
+.about__linkbox a {
+	font-family: VartaBold;
+	font-size: 1.2em;
 }
 
 @media screen and (max-width: 1200px) {

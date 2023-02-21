@@ -95,6 +95,14 @@ I've added a h1 which is present in the DOM but hidden visually. */
   visibility: hidden;
 }
 
+.index-latest-art h2 {
+  margin-bottom: 0.3em;
+}
+
+.index-latest-art .galleryimg {
+  margin: 0;
+}
+
 
 .index-art-focus {
   object-fit: cover;
@@ -368,32 +376,33 @@ I've added a h1 which is present in the DOM but hidden visually. */
     margin-right: 0px;
   }
 
-  .sidebar__latest-posts, .sidebar #medium-title {
+  /*.sidebar__latest-posts, .sidebar #medium-title {
     display: none;
-  }
+  }*/
 
+
+
+ 
   .sidebar ul {
     padding: 0.5em;
   }
 
-  .sidebar li {
-    list-style-type: none;
-  }
-
   .sidebar__container {
-    position: fixed;
-    background-color: white;
-    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    
     padding: 0.1em;
     flex-direction: row;
     border: none;
-    margin-top: 2em;
-    
+    margin-top: 0.2em;
   }
 
   .sidebar {
+    display: flex;
+    flex-direction: column;
     margin-left: 1em !important;
     padding-top: 0em !important;
+    background-color: white;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.3);
   }
 
   .sidebar div {
@@ -404,10 +413,13 @@ I've added a h1 which is present in the DOM but hidden visually. */
     max-height: 2em;
   }
 
+  .blog__container {
+    display: block !important;
+    
+  }
+
   .blog__content, .blog__container h1, .gallery__content{
     grid-column: 2 / 12 !important;
-    padding-left: 1em !important;
-
   }
 
   .art-gen__content {
@@ -434,7 +446,7 @@ I've added a h1 which is present in the DOM but hidden visually. */
   }
 
   .blog__post {
-    padding: 0.5em !important;
+    padding: 1em !important;
   }
 
   .art-gen__date {
@@ -454,18 +466,17 @@ I've added a h1 which is present in the DOM but hidden visually. */
     margin-top: 0px !important;
   }
 
-  #foo {
+  #mobile-menu {
     display: none;
     
   }
 
   #navToggleButton {
     display: block;
-    grid-column: 2 / 12;
-    padding-left: 0.2em;
+    /*padding-left: 0.2em;
     padding-right: 0.2em;
     padding-top: 0.4em;
-    padding-bottom: 0.1em;
+    padding-bottom: 0.1em;*/
   }
 
 }
