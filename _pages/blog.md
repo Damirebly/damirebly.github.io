@@ -10,7 +10,7 @@ permalink: /blog
 </div>
 
 
-<div class="blog__content">
+<div class="blog__content" id="dimmable">
 <h1>Recent blog posts</h1>
   <ul>
   {% for post in site.posts %}

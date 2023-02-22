@@ -1,14 +1,30 @@
+<!-- Clicking the button opens and closes the menu on blog and gallery pages, when in mobile view
+    (below or at 600px). The function also changes the bg color to create a dimming effect, as well
+    as directly change the opacity of all images also to dim the page, when the menu is open only. -->
+
 <button onclick="toggle_visibility('mobile-menu');" id="navToggleButton">
     <img src="/images/logo-icons/burgermenu.svg" aria-label="blog navigation"/>
 </button>
 
 <script>
 
+
 function toggle_visibility(id) {
     var e = document.getElementById(id);
-    if(e.style.display == 'flex')
-    e.style.display = 'none';
-    else
-        e.style.display = 'flex';
+    var bg = document.getElementById('dimmable');
+    var imgs = document.querySelectorAll('img');
+    if(e.style.display == 'flex') {
+        e.style.display = 'none',
+        bg.classList.remove("dimmed-background");
+        for (let i of imgs) {
+            i.style.opacity = '1';
+        }
+    } else {
+        e.style.display = 'flex',
+        bg.classList.add("dimmed-background");
+        for (let i of imgs) {
+            i.style.opacity = '0.2';
+        }
+    }
 }
 </script>

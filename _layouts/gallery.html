@@ -6,7 +6,7 @@ layout: default
 
 	{% include gallery-sidebar.html %}
 
-<div class="gallery__content">
+<div class="gallery__content" id="dimmable">
 	<h1 class="gallery__title">Latest Art</h1>
 	<ul class="gallery__list">
   {% assign arts = site.data.artfiles | sort: 'date' | reverse %}
