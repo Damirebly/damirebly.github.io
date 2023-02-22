@@ -75,13 +75,13 @@ figcaption {
 }
 
 .post__date {
-	font-family: Varta;
-	font-size: 16px;
+	font-family: VartaBold;
+	font-size: 1.2em;
 }
 
 .post__tags {
-	font-family: Jost;
-	font-size: 20px;
+	font-family: JostLight;
+	font-size: 1.4em;
 }
 
 .sidebar {
@@ -109,12 +109,16 @@ figcaption {
 }
 
 .post__content {
-	font-size: 22px;
+	font-size: 1.4em;
 }
 
 #medium-title {
 	font-family: JostLight;
 	font-size: 36px;
+}
+
+.about__text {
+	font-size: 1.2em;
 }
 
 .about__linkbox a {
