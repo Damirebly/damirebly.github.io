@@ -33,4 +33,5 @@ gem "addressable", ">= 2.8.0"
 
 gem "nokogiri", ">= 1.13.10"
 gem "webrick", "~> 1.7"
-gem "commonmarker", ">= 0.23.6"
+gem "commonmarker", ">= 0.23.7"
+gem "activesupport", ">= 6.1.7.1"
