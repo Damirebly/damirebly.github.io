@@ -3,12 +3,12 @@ title: Illustrations 2022
 permalink: illustrations-2022
 ---
 
-<div class="gallery__container">
+<div class="gallery__container" id="dimmable">
 
 	{% include gallery-sidebar.html %}
 
-<div class="gallery__content" id="dimmable">
-<h1 class="gallery-title">{{ page.title }}</h1>
+<div class="gallery__content">
+<h1 class="gallery__title">{{ page.title }}</h1>
 <div class="gallery__description">All illustrations made in 2022.</div>
 <ul class="gallery__list">
 {% assign arts = site.data.artfiles | sort: 'date' | reverse %}
