@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{{ page.desc }}">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none' ; manifest-src 'none' ; prefetch-src 'none' ; frame-src 'none' ; worker-src 'none' ; object-src 'none' ; font-src 'self' ; connect-src 'self' ; img-src 'self' ; script-src 'self' ; style-src 'self'">
     <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" title="{{ site.title }}">
@@ -36,8 +37,10 @@
             {{ content }}
         </main>
         <footer>
-            Damirebly © 2022 - <a href="/credits">Site credits</a>
+            Damirebly © 2023 - <a href="/credits">Site credits</a>
         </footer>
     </div>
 </body>
+<script src="/assets/scripts/toggleSidebar.js"></script>
+<script src="/assets/scripts/randomize.js"></script>
 </html>

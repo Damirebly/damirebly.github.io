@@ -1,0 +1,35 @@
+---
+layout: default
+permalink: /blog/archive/
+title: Blog archive
+---
+
+<!-- https://stackoverflow.com/a/43190996 -->
+<div class="blog-list-page">
+<div class="blog__container"  id="dimmable">
+  <div class="sidebar__container">
+    {% include blog-sidebar.html %}
+  </div>
+
+    <div class="blog__content">
+      <h1 id="post__title">{{ page.title }}</h1>
+      <div class="blog__post" id="grid__post">
+ 
+  <div class="grid__list">
+    <ul>
+  {% assign postsByYear =
+    site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+  <li><h2>{{ year.name }}</h2>
+    
+      {% for post in year.items %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
+    </li>
+{% endfor %}
+  </ul>
+</div>
+  </div>
+</div>
+</div>
+</div>

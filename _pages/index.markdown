@@ -9,16 +9,15 @@ permalink: /
   <div class="index-latest">
     <h1>Damirebly.net - Home</h1>
     <div class="index-latest-blog">
-    <h2>Latest blog post</h2>
-        <ul>
+      <h2>Latest blog post</h2>
+      <div class="index-latest-blog__content">
           {% for post in site.posts limit: 1 %}
-          <li><h3 class="post-title">{{ post.title }}</h3></li>
+          <h3>{{ post.title }}</h3>
           <div class="post__date">{{ post.date | date: "%b %-d, %Y" }}</div>
-          {{ post.excerpt }} 
+          {{ post.excerpt | strip_html | truncatewords: 100 }} 
           <div class="post-link"><a href="{{ post.url }}">Read full post</a></div>
           {% endfor %}
-        </ul>
-      
+      </div>
     </div>
 
 

@@ -17,7 +17,12 @@
 @font-face {
 	font-family: Varta;
 	src: url('/assets/fonts/Varta-VariableFont_wght.ttf');
+}
 
+@font-face {
+	font-family: VartaBold;
+	src: url('/assets/fonts/Varta-VariableFont_wght.ttf');
+	font-weight: 600;
 }
 
 @font-face {
@@ -32,17 +37,17 @@
 	font-weight: 200;
 }
 
-body {
+#container {
 	font-family: Yrsa;
 	font-size: 18px;
 }
 
-h1,h2,#navlinks, .art-gen__title, .art-gen__date, .post-title {
+h1,h2,#navlinks, .art-gen__title, .art-gen__date {
 	font-family: Jost;
  } 
 
 h1, .index-latest h2 {
-	font-size: 50px;
+	font-size: 3em;
  }
 
 .index-latest h1 {
@@ -50,17 +55,17 @@ h1, .index-latest h2 {
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 2.3em;
 }
 
 h3 {
 	font-family: JostLight;
-	font-size: 32px;
+	font-size: 2em;
 }
 
 header nav {
 	font-family: Jost;
-	font-size: 34px;
+	font-size: 2.3em;
 }
 
 figcaption {
@@ -70,24 +75,23 @@ figcaption {
 }
 
 .post__date {
-	font-family: Varta;
-	font-size: 16px;
+	font-family: VartaBold;
+	font-size: 1.2em;
 }
 
 .post__tags {
-	font-family: Jost;
-	font-size: 20px;
+	font-family: JostLight;
+	font-size: 1.4em;
 }
 
 .sidebar {
 	font-family: Varta;
-	font-size: 22px;
+	font-size: 1.3em;
 }
 
-.sidebar div, .sidebar div a:visited {
+.sidebar div {
 	font-family: JostExtraLight;
 	font-size: 24px;
-	color: #0C2F53;
 }
 
 .gallery__description {
@@ -100,10 +104,12 @@ figcaption {
 
 .art-gen__date {
 	font-size: 28px;
+	font-family: JostLight;
+	color: #583758;
 }
 
 .post__content {
-	font-size: 22px;
+	font-size: 1.4em;
 }
 
 #medium-title {
@@ -111,50 +117,11 @@ figcaption {
 	font-size: 36px;
 }
 
-@media screen and (max-width: 1200px) {
-	
-	.art-gen__title, h1, .index-latest h2 {
-		font-size: 42px;
-	}
+.about__text {
+	font-size: 1.2em;
+}
 
-	h2 {
-		font-size: 36px;
-	}
-
-	.index-latest h3 {
-		font-size: 28px;
-	}
-
-	.art-gen__desc {
-		font-size: 20px;
-	}
-
-	.art-gen__date {
-		font-size: 20px;
-	}
-  }
-
-@media screen and (max-width: 600px) {
-	header nav, #medium-title {
-		font-size: 24px;
-	}
-
-	.post__tags {
-		font-size: 14px;
-	}
-
-	.art-gen__date {
-		font-size: 14px;
-		grid-column: 10 / span 12;
-	}
-
-	.art-gen__title {
-		font-size: 36px;
-	}
-
-	.art-gen__desc {
-		font-size: 22px;
-	}
-	
-
+.about__linkbox a {
+	font-family: VartaBold;
+	font-size: 1.2em;
 }

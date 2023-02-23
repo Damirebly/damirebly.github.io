@@ -16,19 +16,30 @@ a {
     color: #534E72;
 }
 
-a:visited {
-    color: #534E72;
+.sidebar div a {
+    color: #0C2F53;
 }
 
-a:hover {
-    color: #9F8ADB;
-    text-decoration: underline;
-}
-
-.post__content a, .about__linkbox a, .post__tags a, footer a, footer a:visited, .simple__container a, .index-latest-blog a{
+.post__content a, .about__linkbox a, .post__tags a, footer a, .simple__container a, .index-latest-blog a, .art-gen__desc a{
     color: #89A1BA;
+    text-decoration: underline 1px;
+    text-underline-offset: 0.12em;
+}
+
+.post__tags a {
+    color: #583758;
 }
 
 h1 a {
     color:#534E72;
+}
+
+/*.sidebar__latest-posts a, .sidebar div a {
+    text-decoration: underline 1px;
+    text-underline-offset: 0.12em;
+}*/
+
+a:hover, .sidebar div a:hover {
+    color: #9F8ADB;
+    text-decoration: none;
 }
