@@ -1,3 +1,20 @@
+# dates are in the format year-month-day
+
+- title: Pink imp
+  imagepath: /images/pink-imp.png
+  thumbnail: /images/thumbnails/pink-imp_thumb.png
+  alttext: A fullbody chibi illustration of a humanoid with wings, fangs and a tail. The character is cupping their head in their hands, and walking and looking to the side with a daydreaming or curious expression. The background has a stylized bottle and sticker-like roses surrounding the character.
+  date: 2023-03-11
+  desc: >
+    Illustration of one of my avatars, which I thought looked kind of like an imp with the fangs and tail (no pink horns yet, unfortunately).  
+    My thought was to draw several illustrations in this style, slightly chibi-like and fully rendered, with an abstract background consisting of one object
+    that relates to the character (in this case a potion bottle), and other elements (sticker-like roses for this one). 
+    
+
+    I only used a 3D model I made as reference for this (aside from the avatar itself), one of my goals is also to make less stiff looking/unstylized art when using models as reference. So that was another
+    focus when I drew this.
+  categories: [Petsite related, Illustrations 2023]
+
 - title: Shark character
   imagepath: /images/shark-2-colorlineart.png
   thumbnail: /images/thumbnails/shark-2-colorlineart_thumb.png
