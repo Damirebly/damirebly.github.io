@@ -384,15 +384,16 @@
 
     #navlinks {
       margin-left: 0.5em;
+      font-size: 0.8em;
+    }
+
+    #navlinks a {
+      text-decoration: underline;
+      text-underline-offset: 3px;
     }
 
     header nav li a {
       padding: 0.15em;
-    }
-
-    #navlinks a {
-      background-color: rgba(0,0,0,0.3);
-      border-radius: 0.2em;
     }
 
     .gallery__container #medium-title {

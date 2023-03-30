@@ -38,12 +38,12 @@
 }
 
 #container {
-	font-family: Yrsa;
+	font-family: Yrsa, Garamond, serif;
 	font-size: 18px;
 }
 
 h1,h2,#navlinks, .art-gen__title, .art-gen__date {
-	font-family: Jost;
+	font-family: Jost, Tahoma, sans-serif;
  } 
 
 h1, .index-latest h2 {
@@ -59,38 +59,38 @@ h2 {
 }
 
 h3 {
-	font-family: JostLight;
+	font-family: JostLight, Tahoma, sans-serif;
 	font-size: 2em;
 }
 
 header nav {
-	font-family: Jost;
+	font-family: Jost, Tahoma, sans-serif;
 	font-size: 2.3em;
 }
 
 figcaption {
-	font-family: YrsaLight;
+	font-family: YrsaLight, Garamond, serif;
 	font-size: 20px;
   
 }
 
 .post__date {
-	font-family: VartaBold;
+	font-family: VartaBold, sans-serif;
 	font-size: 1.2em;
 }
 
 .post__tags {
-	font-family: JostLight;
+	font-family: JostLight, Tahoma, sans-serif;
 	font-size: 1.4em;
 }
 
 .sidebar {
-	font-family: Varta;
+	font-family: Varta, sans-serif;
 	font-size: 1.3em;
 }
 
 .sidebar div {
-	font-family: JostExtraLight;
+	font-family: JostExtraLight, Tahoma, sans-serif;
 	font-size: 24px;
 }
 
@@ -104,7 +104,7 @@ figcaption {
 
 .art-gen__date {
 	font-size: 28px;
-	font-family: JostLight;
+	font-family: JostLight, Tahoma, sans-serif;
 	color: #583758;
 }
 
@@ -113,7 +113,7 @@ figcaption {
 }
 
 #medium-title {
-	font-family: JostLight;
+	font-family: JostLight, Tahoma, sans-serif;
 	font-size: 36px;
 }
 
@@ -122,6 +122,6 @@ figcaption {
 }
 
 .about__linkbox a {
-	font-family: VartaBold;
+	font-family: VartaBold, sans-serif;
 	font-size: 1.2em;
 }

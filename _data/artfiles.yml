@@ -1,4 +1,21 @@
 # dates are in the format year-month-day
+# thumbnails are made manually and are 150x150 px
+
+- title: Astral Braids
+  imagepath: /images/astral_braids.png
+  thumbnail: /images/thumbnails/astral_braids_thumb.png
+  alltext: Illustration of a character with floating purple braids and an abstract cosmos themed backdrop.
+  date: 2023-03-30
+  desc: >
+    Made as a raffle entry for a user-hosted event on DV (the design of the braids + headpiece here belongs to Tish#6567 on DV).
+    
+    
+    I took this as an opportunity to practice a few things, including braids. 
+    Last time I drew braids it had a similar dynamic arc as here, but it became very stiff, and I struggled a lot with determining where
+    the next part in the braid would be in relation to the other parts. This time I used a technique where I drew a zigzag line first,
+    which helped both in shaping the braids, making sure they followed the pattern correctly and were less stiff
+    (because I was drawing the line first, instead of building the braid piece by piece without a line or thought to how it would actually flow).
+  categories: [Petsite related, Illustrations 2023]
 
 - title: Pink imp
   imagepath: /images/pink-imp.png
