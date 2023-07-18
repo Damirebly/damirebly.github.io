@@ -1,10 +1,24 @@
 # dates are in the format year-month-day
 # thumbnails are made manually and are 150x150 px
 
+- title: Avatar above
+  imagepath: /images/avatar-above.png
+  thumbnail: /images/thumbnails/avatar-above_thumb.png
+  alttext: A halfbody illustration of a person holding a lace parasol, with a pirate hat and a headscarf covering one eye.  
+  date: 2023-07-18
+  desc: > 
+    Drawn for a "draw the avatar above you" thread on DV, of Hummingbelle#48417's avatar.
+
+    
+    I started with just a photo as reference and the avatar itself, and wasn't sure how much I wanted to put into it. But ended up
+    making a full illustration out of the prompt. It's been a while since I made an actual art piece like this so it felt nice
+    to get back into it. 
+  categories: [Petsite related, Illustrations 2023]
+
 - title: Astral Braids
   imagepath: /images/astral_braids.png
   thumbnail: /images/thumbnails/astral_braids_thumb.png
-  alltext: Illustration of a character with floating purple braids and an abstract cosmos themed backdrop.
+  alttext: Illustration of a character with floating purple braids and an abstract cosmos themed backdrop.
   date: 2023-03-30
   desc: >
     Made as a raffle entry for a user-hosted event on DV (the design of the braids + headpiece here belongs to Tish#6567 on DV).
